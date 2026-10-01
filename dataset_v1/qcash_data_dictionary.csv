@@ -1,0 +1,18 @@
+table,field,definition,role
+raw_transactions_anonymized,transaction_id,Pseudonymous transaction identifier,identifier
+raw_transactions_anonymized,date,Transaction date,date
+raw_transactions_anonymized,time,Transaction time,time
+raw_transactions_anonymized,amount_kes,M-Pesa till payment received,target_source
+raw_transactions_anonymized,customer_id_hash,One-way hash of customer phone; raw phone removed,privacy
+daily_business_metrics,revenue_kes,Daily M-Pesa till revenue,feature/target
+daily_business_metrics,transaction_count,Daily number of till transactions,feature
+daily_business_metrics,active_day,1 if daily till transaction count > 0,feature
+supervised_revenue_30d,as_of_date,Information cutoff date,index
+supervised_revenue_30d,revenue_30d,Revenue in trailing 30 calendar days,feature
+supervised_revenue_30d,revenue_trend_30_vs_90,30-day average / 90-day average - 1,feature
+supervised_revenue_30d,repeat_customer_rate_30d,Known customers with >=2 transactions / known customers,feature
+supervised_revenue_30d,cpi,"KNBS national CPI, Feb 2019=100",external_feature
+supervised_revenue_30d,headline_inflation_yoy_pct,KNBS national year-on-year headline inflation,external_feature
+supervised_revenue_30d,target_next_30d_revenue_kes,Revenue during the next 30 calendar days,target
+knbs_monthly_macro,cpi,"KNBS national CPI, Feb 2019=100",external_feature
+knbs_monthly_macro,headline_inflation_yoy_pct,KNBS national year-on-year headline inflation,external_feature

@@ -1,0 +1,13 @@
+item,value
+Dataset name,Q-Cash Revenue Prediction Dataset v1
+Purpose,Research dataset for Q-Cash revenue forecasting and early-revenue-access limit experiments.
+Observed source,Belgard Barbers transaction statement supplied for this project.
+Revenue definition,Only M-Pesa Till Payment Received credits are treated as operating revenue. Other bank credits are retained only in source-quality checks.
+Date coverage,2024-01-01 to 2026-09-30.
+Privacy treatment,"Customer names, raw phone numbers, account/till numbers, balances and free-text statement details are excluded. Customer hashes are one-way pseudonyms."
+Main ML target,target_next_30d_revenue_kes: revenue in the 30 calendar days after as_of_date.
+Feature construction,Rolling 7/14/30/60/90-day behavioral features are calculated using information available on or before as_of_date.
+KNBS integration,"Monthly national CPI and headline inflation from KNBS are joined by month. They are contextual features, not invented business transactions."
+Synthetic data policy,No synthetic transactions are mixed into the observed dataset. Synthetic augmentation should be a separate experiment and must be labelled synthetic.
+Important limitation,"One business is not sufficient to claim general MSME performance. It is sufficient to build and test the pipeline, feature engineering and time-series methodology."
+Recommended validation,Use chronological/walk-forward splits; never randomly shuffle time-dependent observations. Keep the final period as a holdout.

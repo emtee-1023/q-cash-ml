@@ -1,0 +1,14 @@
+check,value,unit,interpretation
+source_transactions,9658,rows,Supplied Transactions sheet
+source_date_min,2024-01-01,date,First source date
+source_date_max,2026-09-30,date,Last source date
+till_revenue_transactions,8228,rows,M-Pesa Till Payment Received credits only
+till_revenue_total,4055052.87,KES,Primary Q-Cash revenue basis
+all_account_credits,4384444.53,KES,Includes non-revenue credits
+all_account_debits,4372428.63,KES,Includes fees/transfers/other debits
+revenue_days,981,days,Calendar days with till revenue
+zero_revenue_days,23,days,Retained; not imputed
+duplicate_source_row_numbers,0,rows,Expected 0
+knbs_months,33,months,National CPI + headline inflation
+supervised_daily_rows,884,rows,"90-day history, 30-day forward target"
+supervised_weekly_rows,127,rows,Weekly anchors to reduce target overlap

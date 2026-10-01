@@ -1,0 +1,17 @@
+{
+  "dataset_version": "v1.0",
+  "created": "2026-10-01",
+  "observed_businesses": 1,
+  "observed_transactions": 8228,
+  "observed_till_revenue_kes": 4055052.87,
+  "source_period": [
+    "2024-01-01",
+    "2026-09-30"
+  ],
+  "knbs_period": [
+    "2024-01",
+    "2026-09"
+  ],
+  "synthetic_rows": 0,
+  "notes": "Observed transaction data and KNBS contextual data are kept separate and joined only at the modeling layer."
+}
