@@ -1,0 +1,14 @@
+services:
+  qcash-ml:
+    build:
+      context: ..
+      dockerfile: service/Dockerfile
+    image: qcash-ml:2.0.0
+    container_name: qcash-ml
+    ports:
+      - "8000:8000"
+    environment:
+      MODEL_PATH: /app/artifacts/service_model_bundle.joblib
+      QCASH_API_KEY: ${QCASH_API_KEY:-}
+      QCASH_CORS_ORIGINS: ${QCASH_CORS_ORIGINS:-*}
+    restart: unless-stopped

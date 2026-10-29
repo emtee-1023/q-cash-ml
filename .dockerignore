@@ -1,0 +1,15 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+*.pyo
+dataset_v1
+outputs/*.csv
+outputs/*.png
+outputs/*.json
+service/.venv
+service/__pycache__
+service/**/__pycache__
+service/artifacts
+.env

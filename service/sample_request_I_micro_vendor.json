@@ -1,0 +1,455 @@
+{
+  "business_id": "SYN_064",
+  "daily": [
+    {
+      "transaction_date": "2026-07-03",
+      "revenue_kes": 192.84,
+      "transaction_count": 4
+    },
+    {
+      "transaction_date": "2026-07-04",
+      "revenue_kes": 876.04,
+      "transaction_count": 20
+    },
+    {
+      "transaction_date": "2026-07-05",
+      "revenue_kes": 0.0,
+      "transaction_count": 0
+    },
+    {
+      "transaction_date": "2026-07-06",
+      "revenue_kes": 0.0,
+      "transaction_count": 0
+    },
+    {
+      "transaction_date": "2026-07-07",
+      "revenue_kes": 543.79,
+      "transaction_count": 15
+    },
+    {
+      "transaction_date": "2026-07-08",
+      "revenue_kes": 490.11,
+      "transaction_count": 10
+    },
+    {
+      "transaction_date": "2026-07-09",
+      "revenue_kes": 220.38,
+      "transaction_count": 4
+    },
+    {
+      "transaction_date": "2026-07-10",
+      "revenue_kes": 0.0,
+      "transaction_count": 0
+    },
+    {
+      "transaction_date": "2026-07-11",
+      "revenue_kes": 254.67,
+      "transaction_count": 4
+    },
+    {
+      "transaction_date": "2026-07-12",
+      "revenue_kes": 230.7,
+      "transaction_count": 4
+    },
+    {
+      "transaction_date": "2026-07-13",
+      "revenue_kes": 847.52,
+      "transaction_count": 22
+    },
+    {
+      "transaction_date": "2026-07-14",
+      "revenue_kes": 850.51,
+      "transaction_count": 14
+    },
+    {
+      "transaction_date": "2026-07-15",
+      "revenue_kes": 401.68,
+      "transaction_count": 6
+    },
+    {
+      "transaction_date": "2026-07-16",
+      "revenue_kes": 492.95,
+      "transaction_count": 14
+    },
+    {
+      "transaction_date": "2026-07-17",
+      "revenue_kes": 661.05,
+      "transaction_count": 8
+    },
+    {
+      "transaction_date": "2026-07-18",
+      "revenue_kes": 295.43,
+      "transaction_count": 8
+    },
+    {
+      "transaction_date": "2026-07-19",
+      "revenue_kes": 253.37,
+      "transaction_count": 4
+    },
+    {
+      "transaction_date": "2026-07-20",
+      "revenue_kes": 0.0,
+      "transaction_count": 0
+    },
+    {
+      "transaction_date": "2026-07-21",
+      "revenue_kes": 522.16,
+      "transaction_count": 18
+    },
+    {
+      "transaction_date": "2026-07-22",
+      "revenue_kes": 0.0,
+      "transaction_count": 0
+    },
+    {
+      "transaction_date": "2026-07-23",
+      "revenue_kes": 434.57,
+      "transaction_count": 12
+    },
+    {
+      "transaction_date": "2026-07-24",
+      "revenue_kes": 582.52,
+      "transaction_count": 12
+    },
+    {
+      "transaction_date": "2026-07-25",
+      "revenue_kes": 1409.22,
+      "transaction_count": 38
+    },
+    {
+      "transaction_date": "2026-07-26",
+      "revenue_kes": 217.69,
+      "transaction_count": 7
+    },
+    {
+      "transaction_date": "2026-07-27",
+      "revenue_kes": 314.89,
+      "transaction_count": 7
+    },
+    {
+      "transaction_date": "2026-07-28",
+      "revenue_kes": 723.04,
+      "transaction_count": 13
+    },
+    {
+      "transaction_date": "2026-07-29",
+      "revenue_kes": 236.72,
+      "transaction_count": 4
+    },
+    {
+      "transaction_date": "2026-07-30",
+      "revenue_kes": 292.49,
+      "transaction_count": 5
+    },
+    {
+      "transaction_date": "2026-07-31",
+      "revenue_kes": 409.52,
+      "transaction_count": 10
+    },
+    {
+      "transaction_date": "2026-08-01",
+      "revenue_kes": 1443.94,
+      "transaction_count": 34
+    },
+    {
+      "transaction_date": "2026-08-02",
+      "revenue_kes": 226.37,
+      "transaction_count": 3
+    },
+    {
+      "transaction_date": "2026-08-03",
+      "revenue_kes": 724.95,
+      "transaction_count": 21
+    },
+    {
+      "transaction_date": "2026-08-04",
+      "revenue_kes": 372.91,
+      "transaction_count": 9
+    },
+    {
+      "transaction_date": "2026-08-05",
+      "revenue_kes": 381.18,
+      "transaction_count": 6
+    },
+    {
+      "transaction_date": "2026-08-06",
+      "revenue_kes": 372.95,
+      "transaction_count": 14
+    },
+    {
+      "transaction_date": "2026-08-07",
+      "revenue_kes": 363.31,
+      "transaction_count": 8
+    },
+    {
+      "transaction_date": "2026-08-08",
+      "revenue_kes": 1564.12,
+      "transaction_count": 40
+    },
+    {
+      "transaction_date": "2026-08-09",
+      "revenue_kes": 720.55,
+      "transaction_count": 24
+    },
+    {
+      "transaction_date": "2026-08-10",
+      "revenue_kes": 0.0,
+      "transaction_count": 0
+    },
+    {
+      "transaction_date": "2026-08-11",
+      "revenue_kes": 555.75,
+      "transaction_count": 17
+    },
+    {
+      "transaction_date": "2026-08-12",
+      "revenue_kes": 517.4,
+      "transaction_count": 14
+    },
+    {
+      "transaction_date": "2026-08-13",
+      "revenue_kes": 515.11,
+      "transaction_count": 7
+    },
+    {
+      "transaction_date": "2026-08-14",
+      "revenue_kes": 433.38,
+      "transaction_count": 11
+    },
+    {
+      "transaction_date": "2026-08-15",
+      "revenue_kes": 555.17,
+      "transaction_count": 16
+    },
+    {
+      "transaction_date": "2026-08-16",
+      "revenue_kes": 220.29,
+      "transaction_count": 5
+    },
+    {
+      "transaction_date": "2026-08-17",
+      "revenue_kes": 466.94,
+      "transaction_count": 10
+    },
+    {
+      "transaction_date": "2026-08-18",
+      "revenue_kes": 0.0,
+      "transaction_count": 0
+    },
+    {
+      "transaction_date": "2026-08-19",
+      "revenue_kes": 883.17,
+      "transaction_count": 15
+    },
+    {
+      "transaction_date": "2026-08-20",
+      "revenue_kes": 762.53,
+      "transaction_count": 22
+    },
+    {
+      "transaction_date": "2026-08-21",
+      "revenue_kes": 560.85,
+      "transaction_count": 13
+    },
+    {
+      "transaction_date": "2026-08-22",
+      "revenue_kes": 1941.83,
+      "transaction_count": 39
+    },
+    {
+      "transaction_date": "2026-08-23",
+      "revenue_kes": 143.42,
+      "transaction_count": 2
+    },
+    {
+      "transaction_date": "2026-08-24",
+      "revenue_kes": 671.74,
+      "transaction_count": 16
+    },
+    {
+      "transaction_date": "2026-08-25",
+      "revenue_kes": 703.42,
+      "transaction_count": 9
+    },
+    {
+      "transaction_date": "2026-08-26",
+      "revenue_kes": 212.7,
+      "transaction_count": 3
+    },
+    {
+      "transaction_date": "2026-08-27",
+      "revenue_kes": 851.86,
+      "transaction_count": 9
+    },
+    {
+      "transaction_date": "2026-08-28",
+      "revenue_kes": 265.12,
+      "transaction_count": 9
+    },
+    {
+      "transaction_date": "2026-08-29",
+      "revenue_kes": 736.68,
+      "transaction_count": 15
+    },
+    {
+      "transaction_date": "2026-08-30",
+      "revenue_kes": 0.0,
+      "transaction_count": 0
+    },
+    {
+      "transaction_date": "2026-08-31",
+      "revenue_kes": 250.92,
+      "transaction_count": 6
+    },
+    {
+      "transaction_date": "2026-09-01",
+      "revenue_kes": 399.3,
+      "transaction_count": 5
+    },
+    {
+      "transaction_date": "2026-09-02",
+      "revenue_kes": 658.43,
+      "transaction_count": 12
+    },
+    {
+      "transaction_date": "2026-09-03",
+      "revenue_kes": 882.58,
+      "transaction_count": 19
+    },
+    {
+      "transaction_date": "2026-09-04",
+      "revenue_kes": 415.95,
+      "transaction_count": 10
+    },
+    {
+      "transaction_date": "2026-09-05",
+      "revenue_kes": 0.0,
+      "transaction_count": 0
+    },
+    {
+      "transaction_date": "2026-09-06",
+      "revenue_kes": 0.0,
+      "transaction_count": 0
+    },
+    {
+      "transaction_date": "2026-09-07",
+      "revenue_kes": 526.01,
+      "transaction_count": 13
+    },
+    {
+      "transaction_date": "2026-09-08",
+      "revenue_kes": 486.66,
+      "transaction_count": 14
+    },
+    {
+      "transaction_date": "2026-09-09",
+      "revenue_kes": 663.92,
+      "transaction_count": 16
+    },
+    {
+      "transaction_date": "2026-09-10",
+      "revenue_kes": 0.0,
+      "transaction_count": 0
+    },
+    {
+      "transaction_date": "2026-09-11",
+      "revenue_kes": 292.62,
+      "transaction_count": 4
+    },
+    {
+      "transaction_date": "2026-09-12",
+      "revenue_kes": 1137.88,
+      "transaction_count": 29
+    },
+    {
+      "transaction_date": "2026-09-13",
+      "revenue_kes": 394.92,
+      "transaction_count": 14
+    },
+    {
+      "transaction_date": "2026-09-14",
+      "revenue_kes": 196.04,
+      "transaction_count": 8
+    },
+    {
+      "transaction_date": "2026-09-15",
+      "revenue_kes": 1822.34,
+      "transaction_count": 38
+    },
+    {
+      "transaction_date": "2026-09-16",
+      "revenue_kes": 314.01,
+      "transaction_count": 8
+    },
+    {
+      "transaction_date": "2026-09-17",
+      "revenue_kes": 362.38,
+      "transaction_count": 8
+    },
+    {
+      "transaction_date": "2026-09-18",
+      "revenue_kes": 344.61,
+      "transaction_count": 11
+    },
+    {
+      "transaction_date": "2026-09-19",
+      "revenue_kes": 989.88,
+      "transaction_count": 27
+    },
+    {
+      "transaction_date": "2026-09-20",
+      "revenue_kes": 311.43,
+      "transaction_count": 7
+    },
+    {
+      "transaction_date": "2026-09-21",
+      "revenue_kes": 0.0,
+      "transaction_count": 0
+    },
+    {
+      "transaction_date": "2026-09-22",
+      "revenue_kes": 922.66,
+      "transaction_count": 20
+    },
+    {
+      "transaction_date": "2026-09-23",
+      "revenue_kes": 379.35,
+      "transaction_count": 6
+    },
+    {
+      "transaction_date": "2026-09-24",
+      "revenue_kes": 0.0,
+      "transaction_count": 0
+    },
+    {
+      "transaction_date": "2026-09-25",
+      "revenue_kes": 519.29,
+      "transaction_count": 10
+    },
+    {
+      "transaction_date": "2026-09-26",
+      "revenue_kes": 833.37,
+      "transaction_count": 22
+    },
+    {
+      "transaction_date": "2026-09-27",
+      "revenue_kes": 638.17,
+      "transaction_count": 12
+    },
+    {
+      "transaction_date": "2026-09-28",
+      "revenue_kes": 0.0,
+      "transaction_count": 0
+    },
+    {
+      "transaction_date": "2026-09-29",
+      "revenue_kes": 1096.13,
+      "transaction_count": 20
+    },
+    {
+      "transaction_date": "2026-09-30",
+      "revenue_kes": 335.36,
+      "transaction_count": 9
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "data_source": "synthetic",
+  "created_utc": "2026-10-01T22:11:29.693967+00:00",
+  "master_seed": 42,
+  "n_businesses": 80,
+  "n_transactions": 896003,
+  "n_archetypes": 10,
+  "archetypes": {
+    "A_stable_barbershop": {
+      "label": "Stable barbershop",
+      "n_businesses": 8
+    },
+    "B_volatile_retail": {
+      "label": "Highly volatile retail",
+      "n_businesses": 8
+    },
+    "C_growing": {
+      "label": "Growing business",
+      "n_businesses": 8
+    },
+    "D_declining": {
+      "label": "Declining business",
+      "n_businesses": 8
+    },
+    "E_weekly_seasonal": {
+      "label": "Strong weekly seasonality",
+      "n_businesses": 8
+    },
+    "F_monthly_seasonal": {
+      "label": "Strong seasonal business",
+      "n_businesses": 8
+    },
+    "G_intermittent": {
+      "label": "Intermittent / irregular MSME",
+      "n_businesses": 8
+    },
+    "H_high_volume": {
+      "label": "Stable high-volume business",
+      "n_businesses": 8
+    },
+    "I_micro_vendor": {
+      "label": "Micro vendor (mama mboga)",
+      "n_businesses": 8
+    },
+    "J_micro_service": {
+      "label": "Micro service (boda boda / fundi)",
+      "n_businesses": 8
+    }
+  },
+  "date_range": [
+    "2024-01-01",
+    "2026-09-30"
+  ],
+  "disclaimer": "Synthetic simulation data for a proof of concept. Parameters are simulation assumptions, NOT measured Kenyan MSME statistics, and results do not establish generalisation to real businesses.",
+  "assumptions": [
+    "Daily revenue follows a log-normal multiplicative noise model with per-archetype coefficient of variation.",
+    "Zero/low-revenue and unusually-high-revenue days are explicit Bernoulli events with per-archetype probabilities.",
+    "Growth/decline is geometric day-over-day.",
+    "Weekly and monthly seasonality are multiplicative profiles.",
+    "Transaction counts are Poisson with mean revenue / average transaction value; per-transaction amounts are log-normal and rescaled so each day's transactions sum to that day's revenue."
+  ]
+}

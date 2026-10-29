@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-10-01T22:20:30.603339+00:00",
+  "data_source": "synthetic",
+  "n_businesses": 80,
+  "n_rows": 10080,
+  "n_train": 6080,
+  "n_val": 1120,
+  "n_holdout": 2080,
+  "selected_model": "random_forest",
+  "selected_feature_set": "B_revenue_tx",
+  "selected_holdout_mae_kes": 13408.05512240696,
+  "best_ml_holdout_mae_kes": 12298.183327936438,
+  "best_ml_holdout_config": "random_forest/D_revenue_behavioural_seasonal",
+  "best_baseline_holdout_mae_kes": 12918.123709935899,
+  "behavioural_beats_revenue_only": true,
+  "limit_strategies": {
+    "A_simple_revenue": "5 days of predicted daily revenue (soft cap 15,000)",
+    "B_conservative": "5 days of median (typical) daily revenue",
+    "C_revenue_stability": "5 days scaled by stability factor (volatile -> fewer days)",
+    "D_cashflow_coverage": "5 days * repayment rate (50%)"
+  },
+  "disclaimer": "Synthetic simulation. Repayment outcomes are controlled simulation rules, not observed borrower behaviour; results do not generalise to real Kenyan MSMEs."
+}

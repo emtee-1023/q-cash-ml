@@ -1,0 +1,14 @@
+# Q-Cash forecast service dependencies.
+# The data/runtime libraries are pinned to the versions the artifact was
+# trained with (see ../outputs/run_summary.json -> environment). Keeping them
+# identical guarantees joblib can unpickle the model safely.
+joblib==1.6.0
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+
+# Web layer. The web layer is independent of the saved model, so it floats
+# within a compatible major range rather than pinning an exact patch.
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+pydantic>=2.7,<3.0
