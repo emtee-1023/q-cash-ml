@@ -1,88 +1,179 @@
-# Q-Cash Revenue Forecast Service
+# Q-Cash ML and Decision API
 
-A small web service that answers one question over HTTP:
+A Python service that answers two questions over HTTP:
 
-> "Given this business's recent M-Pesa Till activity, how much will it make in
-> the next 30 days, and how much early access can we reasonably offer?"
+> "Given this business's recent transaction activity, what will it make in the
+> next 30 days, and what early revenue access (ERA) advance and repayment terms
+> should we recommend?"
 
-The application sends a business's trailing **daily revenue and transaction
-counts** (at least 90 days), and this service returns a 30-day revenue forecast
-plus four proposed early-access limits. It runs in its own Docker container.
+It runs the full Q-Cash assessment pipeline:
 
-> **Synthetic model.** The served model is trained on the synthetic MSME
-> population in `qcash_synthetic_v1/`, not on the single real barbershop. It is
-> a proof of concept: predictions and limits are not credit decisions and do not
-> generalise to real Kenyan MSMEs.
+1. **Transaction intelligence** — validate, classify and flag transactions.
+2. **Revenue prediction** — Random Forest forecast of next-30-day eligible revenue.
+3. **Reliability scoring** — weighted, rules-based, explainable score.
+4. **Decision + repayment** — ERA advance recommendation and hybrid repayment terms.
 
----
-
-## 1. What the model does (in plain language)
-
-The model (a random forest on transaction-behaviour features) forecasts the next
-30 days of M-Pesa Till revenue from 90 days of daily history. From that forecast
-it derives four transparent early-access limits. Because these are short-term
-bridge loans, limits are sized in **days of revenue**, not a percentage of a
-month, and are capped at KSh 15,000.
-
-| Strategy | Rule |
-| --- | --- |
-| `simple_revenue` | 5 days of predicted daily revenue |
-| `conservative` | 5 days of *typical* (median) daily revenue |
-| `revenue_stability` | 5 days, scaled down for volatile businesses |
-| `cashflow_coverage` | 5 days × repayment rate (50%) |
-
-The forecast also comes with a plus/minus band: the model's average error on
-held-out weeks (about KSh 12,298 at the time of training).
-
-The training population spans both barbershop-scale businesses and micro MSEs
-(mama mboga / boda boda scale), so the model can score both.
+> **Synthetic model.** The served revenue model is trained on the synthetic MSME
+> population in `qcash_synthetic_v1/`, not on real Kenyan MSMEs. It is a proof of
+> concept. Predictions and recommendations are **not** credit decisions and do
+> not generalise to real Kenyan MSMEs.
 
 ---
 
-## 2. Files
+## 1. Responsibilities and boundaries
+
+The Python service **recommends**; it never executes financial operations:
+
+* It does **not** disburse funds, deduct repayments, or modify Laravel's database.
+* It does **not** query Laravel's PostgreSQL database directly — Laravel supplies
+  all assessment inputs.
+* It does **not** call live payment providers or make lending decisions.
+
+Laravel ingests transactions, initiates assessments, presents/accepts offers, and
+executes disbursement and repayment. Python only analyses and recommends.
+
+---
+
+## 2. Architecture
 
 ```
 service/
   app/
-    main.py        HTTP endpoints
-    model.py       loads the artifact, predicts, computes limits
-    features.py    computes 90-day features from daily history
-    schemas.py     request/response shapes
-    config.py      environment-variable settings
+    main.py                     HTTP endpoints (thin; no business rules)
+    assessment.py               orchestrates the four pipeline stages
+    transactions.py             validation, classification, anomaly flagging, analytics
+    features.py                 90-day model feature engineering (leakage-safe)
+    model.py                    loads the trained artifact, predicts revenue
+    reliability.py              weighted rules-based reliability scoring
+    decision_engine.py          ERA advance recommendation + eligibility statuses
+    repayment.py                hybrid repayment recommendation
+    policy.py                   typed policy loader (config, weights, thresholds)
+    schemas.py                  request/response models
+    config.py                   environment-variable settings
+    logging_conf.py             structured JSON logging
+  policies/
+    era_policy_v1.json          versioned, provisional policy document
+  tests/                        unit tests (stdlib unittest)
   Dockerfile
   docker-compose.yml
   requirements.txt
-  .env.example
+  sample_assessment_request.json
 ```
 
-The trained model lives in `../qcash_synthetic_v1/models/service_model_bundle.joblib`
-and is copied into the image at build time.
+### Pipeline
+
+```
+transactions ──> transaction intelligence ──> eligible daily aggregates
+                                                   │
+                                                   ├──> revenue prediction (RF)
+                                                   │
+                                                   └──> reliability scoring
+                                                          │
+                 ┌───────────────────────────────────────┘
+                 ▼
+        ERA decision engine ──> advance + repayment recommendation
+```
 
 ---
 
-## 3. Run it locally (no Docker)
+## 3. Transaction intelligence
 
-From this `service/` directory:
+Raw transactions are validated, classified and flagged — never deleted or
+altered. Categories:
+
+| Category | Eligible revenue? |
+| --- | --- |
+| `business_sale` | yes |
+| `refund` | no |
+| `reversal` | no |
+| `capital_injection` | no |
+| `internal_transfer` | no |
+| `other_non_revenue` | no |
+| `unknown` | no |
+
+Rules (all configurable in `policies/era_policy_v1.json`):
+
+* Classification is driven by `status`, `direction`, caller-supplied `category`,
+  and `transaction_type` keyword matching.
+* Insufficient information -> `unknown` (never a made-up category).
+* Unusual transactions (outliers, duplicates, missing IDs, future timestamps) are
+  **flagged**, not excluded.
+* A large genuine sale remains eligible; a large unclassified inflow is flagged
+  and excluded from eligible revenue.
+
+## 4. Revenue prediction
+
+A **Random Forest Regressor** predicts next-30-day eligible revenue from 90 days
+of eligible daily aggregates. Feature engineering (`features.py`) is separate
+from inference (`model.py`); the trained artifact is loaded once and cached, and
+every prediction records its model version.
+
+The model cannot be trusted for a business with fewer than
+`minimum_history_days` (default 90) of history; those cases fall through to the
+cold-start policy instead of forcing a prediction.
+
+## 5. Reliability scoring
+
+A weighted, rules-based score (not a second Random Forest):
+
+```
+S = sum( w_i * s_i )
+```
+
+Each component `s_i` is normalised to `[0, 100]` and recorded with its raw value,
+weight, flag and reason code. Weights are configurable; the score is **not** a
+probability of default. A business with no prior Q-Cash repayment history has
+that component marked *unavailable* (weights renormalised) so it is not penalised.
+
+## 6. ERA decision engine
+
+```
+Recommended Advance = Eligible Predicted Revenue x Recommended Advance Rate
+```
+
+The rate comes from configurable score bands and is bounded by minimum/maximum
+advance limits and the exposure headroom Laravel reports. Statuses:
+
+* `eligible`
+* `ineligible` (low score, no revenue signal, exposure limit reached)
+* `insufficient_data` (too little history / too few transactions)
+* `manual_review` (too many unclassified or unusual transactions)
+
+Cold-start businesses (insufficient history) get a conservative, clearly-labelled
+assessment only when Laravel supplies business profile/cohort information.
+
+## 7. Hybrid repayment recommendation
+
+* Percentage-based recovery from eligible incoming business payments.
+* A maximum repayment period.
+* A pre-agreed fallback arrangement if a balance remains at the end of the window.
+
+The recovery percentage is business-specific, starts from a fixed agreed base
+rate, and is adjusted only by narrow, documented rules (high volatility or
+declining revenue). Python recommends terms; Laravel executes recovery.
+
+---
+
+## 8. Run locally (no Docker)
+
+From the `service/` directory:
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-export MODEL_PATH=../qcash_synthetic_v1/models/service_model_bundle.joblib
 uvicorn app.main:app --reload --port 8000
 ```
 
-Then open <http://localhost:8000/docs> for an interactive page.
+Then open <http://localhost:8000/docs>.
 
----
+The model artifact and policy resolve automatically (see `config.py`); set
+`MODEL_PATH` / `QCASH_POLICY_PATH` to override.
 
-## 4. Run it with Docker (recommended)
-
-From the `ml/` directory (the build context must include the model):
+## 9. Run with Docker
 
 ```bash
-cp service/.env.example service/.env   # optional: set an API key
 cd service && docker compose up --build
 ```
 
@@ -90,129 +181,93 @@ The service is on <http://localhost:8000>.
 
 ---
 
-## 5. API reference
+## 10. API reference
 
-### `GET /health`
-Liveness probe. Returns `{"status":"ok","model_loaded":true,"model":"..."}`.
+All endpoints (except `/health`) require `X-API-Key` when `QCASH_API_KEY` is set.
 
-### `GET /model`
-Training provenance, feature list and caveats. Protected by the API key when
-one is configured.
+### `POST /api/v1/assessments`
 
-### `POST /predict`
-Forecast one business. Send at least 90 days of daily history.
+Full ERA assessment. Request:
 
 ```bash
-curl -X POST http://localhost:8000/predict \
+curl -X POST http://localhost:8000/api/v1/assessments \
   -H "Content-Type: application/json" \
   -H "X-API-Key: your-key" \
-  -d '{
-        "business_id": "SYN_008",
-        "daily": [
-          {"transaction_date": "2026-09-01", "revenue_kes": 5000, "transaction_count": 10},
-          {"transaction_date": "2026-09-02", "revenue_kes": 4200, "transaction_count": 8}
-        ]
-      }'
+  --data-binary @sample_assessment_request.json
 ```
 
-The last date in `daily` is treated as "today"; the model forecasts the next 30
-days. Fewer than 90 days returns HTTP 422.
+The request contains `business_id`, optional `assessment_reference` /
+`assessment_date`, a list of `transactions`, and optional `business_profile`,
+`repayment_history` and `exposure`. See `schemas.py` and
+`sample_assessment_request.json` for the exact shape.
 
-```json
-{
-  "predicted_next_30d_revenue_kes": 145927.08,
-  "range_low_kes": 133628.90,
-  "range_high_kes": 158225.27,
-  "range_basis": "Prediction plus or minus the model's average error on held-out weeks (KSh 12,298).",
-  "limits": {
-    "simple_revenue_kes": 15000.00,
-    "conservative_kes": 15000.00,
-    "revenue_stability_kes": 15000.00,
-    "cashflow_coverage_kes": 12160.59
-  },
-  "model": "random_forest/D_revenue_behavioural_seasonal",
-  "target": "M-Pesa Till revenue (Credit) in the 30 days after the latest input day"
-}
-```
+The response contains the assessment status, predicted revenue, reliability score
+(with component breakdown), recommended advance rate/amount, recommended recovery
+rate and maximum repayment days, reason codes, warnings, model version, policy
+version and a transaction summary. Amounts are in **KES**.
 
-### `POST /predict/batch`
-Same as `/predict`, but accepts `{"items": [ ... ]}` and returns several
-forecasts at once.
+### `GET /health`, `GET /model`, `GET /policy`
 
-### `POST /decision`
-Returns a **single recommended early-access amount** with its reasoning. The
-recommendation is the most conservative of the three coverage-aware strategies
-(conservative, revenue+stability, cash-flow coverage); the naive days-of-revenue
-rule is shown for comparison but never drives the recommendation.
+Liveness, model provenance, and the active (provisional) policy version.
+
+### Legacy forecast endpoints
+
+`POST /predict`, `POST /predict/batch`, `POST /decision` remain for backwards
+compatibility with the synthetic revenue-forecast service.
+
+---
+
+## 11. Training, validation and evaluation
+
+Reproducible pipelines live at the repository root and in `qcash_synthetic_v1/`:
 
 ```bash
-curl -X POST http://localhost:8000/decision \
-  -H "Content-Type: application/json" \
-  --data-binary @sample_request.json
+# synthetic population (proof of concept)
+.venv/bin/python qcash_synthetic_v1/scripts/generate_transactions.py --n-per-archetype 8 --seed 42
+.venv/bin/python qcash_synthetic_v1/scripts/build_supervised_dataset.py
+.venv/bin/python qcash_synthetic_v1/scripts/run_experiment.py
 ```
 
-```json
-{
-  "recommended_available_kes": 12160.59,
-  "binding_strategy": "cashflow_coverage",
-  "risk_tier": "low",
-  "predicted_next_30d_revenue_kes": 145927.08,
-  "range_low_kes": 133628.90,
-  "range_high_kes": 158225.27,
-  "limits": { "simple_revenue_kes": 15000.00, "conservative_kes": 15000.00,
-              "revenue_stability_kes": 15000.00, "cashflow_coverage_kes": 12160.59 },
-  "reasoning": "Recommended amount is the most conservative of the coverage-aware strategies (cashflow_coverage). Based on predicted daily revenue of KSh 4,864 (30-day forecast KSh 145,927) with CV 0.24 (risk tier: low).",
-  "model": "random_forest/D_revenue_behavioural_seasonal",
-  "target": "M-Pesa Till revenue (Credit) in the 30 days after the latest input day"
-}
-```
+The experiment uses a chronological train/validation/holdout split (never
+shuffled) with an embargo gap so overlapping 30-day targets never leak, and
+reports MAE, RMSE, R² and sMAPE. The real (single-business) barbershop pipeline
+is `train_qcash.py`; it deliberately reports that no ML configuration beat the
+persistence baseline, so the served model is the synthetic Random Forest.
 
 ---
 
-## 6. Calling it from Laravel
-
-```php
-use Illuminate\Support\Facades\Http;
-
-$response = Http::withHeaders(['X-API-Key' => config('services.qcash_ml.key')])
-    ->post(config('services.qcash_ml.url').'/predict', [
-        'business_id' => $businessId,
-        'daily' => $dailyRevenueAndTxCounts, // [{transaction_date, revenue_kes, transaction_count}, ...]
-    ])
-    ->throw();
-
-$forecast  = $response->json('predicted_next_30d_revenue_kes');
-$limit     = $response->json('limits.revenue_stability_kes');
-```
-
-Add to `config/services.php`:
-
-```php
-'qcash_ml' => [
-    'url' => env('QCASH_ML_URL', 'http://qcash-ml:8000'),
-    'key' => env('QCASH_ML_KEY'),
-],
-```
-
----
-
-## 7. Configuration
+## 12. Configuration
 
 | Variable | Default | Purpose |
 | --- | --- | --- |
-| `MODEL_PATH` | `/app/artifacts/service_model_bundle.joblib` | Where the `.joblib` file lives. |
-| `QCASH_API_KEY` | empty (auth off) | If set, every request must send `X-API-Key: <value>`. **Set this in production.** |
-| `QCASH_CORS_ORIGINS` | `*` | Comma-separated allowed browser origins. |
+| `MODEL_PATH` | auto | Trained model bundle (`.joblib`). |
+| `QCASH_POLICY_PATH` | `policies/era_policy_v1.json` | Decision policy document. |
+| `QCASH_API_KEY` | empty (auth off) | If set, all requests need `X-API-Key`. |
+| `QCASH_CORS_ORIGINS` | `*` | Allowed browser origins. |
+| `QCASH_LOG_LEVEL` | `INFO` | Logging level. |
 
 ---
 
-## 8. Updating the model
+## 13. Assumptions, provisional policies and open decisions
 
-1. Regenerate data and retrain:
-   ```bash
-   .venv/bin/python qcash_synthetic_v1/scripts/generate_transactions.py
-   .venv/bin/python qcash_synthetic_v1/scripts/build_supervised_dataset.py
-   .venv/bin/python qcash_synthetic_v1/scripts/run_experiment.py
-   ```
-   This overwrites `qcash_synthetic_v1/models/service_model_bundle.joblib`.
-2. Rebuild the image: `cd service && docker compose up --build`.
+* **Currency is KES**; all amounts are KSh.
+* The input is **transaction records**. Prepared daily aggregates are not yet a
+  first-class input path (Laravel can send raw transactions it already ingests).
+* **Classification rules are provisional.** They rely on `transaction_type` /
+  `category` / `status` fields; where a channel's codes are unknown, inflows are
+  marked `unknown` rather than guessed.
+* **Scoring weights, advance rates, limits and thresholds are provisional** and
+  documented in `policies/era_policy_v1.json`; they have not been calibrated
+  against real repayment outcomes and must not be used as a production policy.
+* **The revenue model is synthetic** and does not generalise to all Kenyan MSMEs.
+* The hybrid repayment fallback is descriptive only; its legal/operational terms
+  are owned by Laravel and the financing partner.
+
+---
+
+## 14. Tests
+
+```bash
+cd service
+.venv/bin/python -m unittest discover -s tests
+```

@@ -1,11 +1,19 @@
-"""FastAPI service that serves the Q-Cash synthetic revenue forecast.
+"""FastAPI service for Q-Cash revenue forecasting and ERA assessment.
 
 Run locally:
     uvicorn app.main:app --host 0.0.0.0 --port 8000
 
-The application sends a business's trailing 90+ days of daily revenue and
-transaction counts to ``POST /predict`` and receives a 30-day revenue forecast
-plus four proposed early-access limits. See the service README for details.
+Endpoints
+---------
+* ``POST /api/v1/assessments`` — full ERA assessment: transaction intelligence,
+  revenue prediction, reliability scoring, advance + repayment recommendation.
+* ``POST /predict``, ``POST /predict/batch``, ``POST /decision`` — legacy
+  synthetic revenue-forecast endpoints, kept for backwards compatibility.
+* ``GET /health``, ``GET /model``, ``GET /policy`` — operational metadata.
+
+The assessment service never queries Laravel's database, disburses funds,
+deducts repayments, or calls payment providers. Laravel supplies all inputs and
+executes all financial operations.
 """
 
 from __future__ import annotations
@@ -19,8 +27,13 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from . import features as feature_engine
 from . import model
-from .config import API_KEY, CORS_ORIGINS
+from .assessment import AssessmentService
+from .config import API_KEY, CORS_ORIGINS, POLICY_PATH
+from .logging_conf import setup_logging
+from .policy import load_policy
 from .schemas import (
+    AssessmentRequest,
+    AssessmentResponse,
     BatchPredictRequest,
     BatchPredictResponse,
     DailyRecord,
@@ -30,6 +43,17 @@ from .schemas import (
     PredictRequest,
     PredictResponse,
 )
+
+setup_logging()
+
+_service: AssessmentService | None = None
+
+
+def get_service() -> AssessmentService:
+    global _service
+    if _service is None:
+        _service = AssessmentService()
+    return _service
 
 
 def require_api_key(x_api_key: str | None = Header(default=None, alias="X-API-Key")) -> None:
@@ -75,16 +99,17 @@ def _build_response(features: pd.DataFrame) -> PredictResponse:
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     model.get_bundle()
+    get_service()
     yield
 
 
 app = FastAPI(
-    title="Q-Cash Revenue Forecast API",
-    version="2.0.0",
+    title="Q-Cash ML and Decision API",
+    version="3.0.0",
     description=(
-        "Estimates the next 30 days of M-Pesa Till revenue and proposes early "
-        "access limits from a business's trailing daily revenue and transaction "
-        "history. Synthetic proof-of-concept model."
+        "Transaction intelligence, revenue forecasting, reliability scoring and "
+        "ERA advance / repayment recommendations for Kenyan MSMEs. Synthetic "
+        "proof-of-concept model; recommendations are not credit decisions."
     ),
     lifespan=lifespan,
 )
@@ -100,7 +125,6 @@ app.add_middleware(
 
 @app.get("/health", response_model=HealthResponse, tags=["ops"])
 def health() -> HealthResponse:
-    """Liveness probe used by Docker and load balancers."""
     try:
         loaded = model.get_bundle() is not None
     except Exception:
@@ -114,8 +138,46 @@ def health() -> HealthResponse:
 
 @app.get("/model", tags=["model"], dependencies=[Depends(require_api_key)])
 def model_metadata() -> dict[str, Any]:
-    """Training provenance, metrics and caveats for the served model."""
     return model.model_info()
+
+
+@app.get("/policy", tags=["model"], dependencies=[Depends(require_api_key)])
+def policy_metadata() -> dict[str, Any]:
+    policy = load_policy(POLICY_PATH)
+    return {
+        "policy_version": policy.policy_version,
+        "provisional": policy.provisional,
+        "currency": policy.currency,
+        "forecast_period_days": policy.forecast_period_days,
+        "minimum_history_days": policy.minimum_history_days,
+    }
+
+
+@app.post(
+    "/api/v1/assessments",
+    response_model=AssessmentResponse,
+    tags=["assessments"],
+    dependencies=[Depends(require_api_key)],
+)
+def assess(request: AssessmentRequest) -> AssessmentResponse:
+    """Run a full ERA assessment for one business."""
+    try:
+        result = get_service().assess(
+            business_id=request.business_id,
+            transactions=[t.model_dump() for t in request.transactions],
+            assessment_reference=request.assessment_reference,
+            assessment_date=request.assessment_date,
+            business_profile=request.business_profile.model_dump()
+            if request.business_profile
+            else None,
+            repayment_history=request.repayment_history.model_dump()
+            if request.repayment_history
+            else None,
+            exposure=request.exposure.model_dump() if request.exposure else None,
+        )
+        return AssessmentResponse(**result)
+    except ValueError as exc:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(exc)) from exc
 
 
 @app.post(
@@ -125,7 +187,6 @@ def model_metadata() -> dict[str, Any]:
     dependencies=[Depends(require_api_key)],
 )
 def predict(request: PredictRequest) -> PredictResponse:
-    """Forecast next-30-day Till revenue and access limits for one business."""
     try:
         features = feature_engine.compute_features(_daily_frame(request.daily))
         return _build_response(pd.DataFrame([features]))
@@ -140,7 +201,6 @@ def predict(request: PredictRequest) -> PredictResponse:
     dependencies=[Depends(require_api_key)],
 )
 def predict_batch(request: BatchPredictRequest) -> BatchPredictResponse:
-    """Forecast for several businesses in one call."""
     rows = []
     for item in request.items:
         try:
@@ -181,7 +241,6 @@ def predict_batch(request: BatchPredictRequest) -> BatchPredictResponse:
     dependencies=[Depends(require_api_key)],
 )
 def decision(request: PredictRequest) -> DecisionResponse:
-    """Return a single recommended early-access amount with its reasoning."""
     try:
         features = feature_engine.compute_features(_daily_frame(request.daily))
     except ValueError as exc:

@@ -11,6 +11,7 @@ COPY service/requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r /app/requirements.txt
 
 COPY qcash_synthetic_v1/models/service_model_bundle.joblib /app/artifacts/service_model_bundle.joblib
+COPY service/policies /app/policies
 COPY service/app /app/app
 
 RUN useradd --create-home --uid 10001 appuser && chown -R appuser:appuser /app

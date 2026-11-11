@@ -1,0 +1,66 @@
+{
+  "business_id": "BUS-001",
+  "assessment_reference": "ASSESSMENT-001",
+  "assessment_date": "2026-10-01T00:00:00Z",
+  "business_profile": {
+    "business_type": "retail",
+    "sector": "micro_retail",
+    "cohort": "mama_mboga"
+  },
+  "repayment_history": {
+    "advances_count": 3,
+    "on_time_count": 3,
+    "late_count": 0,
+    "default_count": 0
+  },
+  "exposure": {
+    "outstanding_principal": 0,
+    "active_advances": 0,
+    "max_exposure_kes": 100000
+  },
+  "transactions": [
+    {
+      "transaction_id": "T000001",
+      "transaction_date": "2026-09-30T08:12:00Z",
+      "amount": 850.0,
+      "direction": "credit",
+      "status": "completed",
+      "transaction_type": "till_payment_received",
+      "customer_id_hash": "a1b2c3"
+    },
+    {
+      "transaction_id": "T000002",
+      "transaction_date": "2026-09-30T09:05:00Z",
+      "amount": 420.0,
+      "direction": "credit",
+      "status": "completed",
+      "transaction_type": "till_payment_received",
+      "customer_id_hash": "d4e5f6"
+    },
+    {
+      "transaction_id": "T000003",
+      "transaction_date": "2026-09-29T11:40:00Z",
+      "amount": 1200.0,
+      "direction": "credit",
+      "status": "completed",
+      "transaction_type": "till_payment_received",
+      "customer_id_hash": "a1b2c3"
+    },
+    {
+      "transaction_id": "T000004",
+      "transaction_date": "2026-09-29T12:00:00Z",
+      "amount": 5000.0,
+      "direction": "credit",
+      "status": "completed",
+      "transaction_type": "owner_capital_injection"
+    },
+    {
+      "transaction_id": "T000005",
+      "transaction_date": "2026-09-29T13:15:00Z",
+      "amount": 300.0,
+      "direction": "debit",
+      "status": "completed",
+      "transaction_type": "customer_refund"
+    }
+  ]
+}
