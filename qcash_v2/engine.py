@@ -359,6 +359,8 @@ def decide(
     outstanding = int(exposure.get("outstanding_minor", 0) or 0)
     max_exposure = int(exposure.get("max_exposure_minor", max_adv))
     owner_outstanding = int(exposure.get("owner_outstanding_minor", 0) or 0)
+    overdue_minor = int(exposure.get("overdue_minor", 0) or 0)
+    has_overdue = bool(exposure.get("has_overdue", False)) or overdue_minor > 0
 
     a_rate = lower_minor * advance_rate_bps // 10000
 
@@ -384,9 +386,22 @@ def decide(
     a_final = min(candidates.values())
     a_final = int(a_final // 5000 * 5000)  # round DOWN to KSh 50
 
-    reason_codes: list[str] = []
-    if a_final < min_adv:
-        return {"status": "not_eligible", "reason_codes": ["R02"],
+    # Eligibility gates. Return every applicable reason code (guide §7.5).
+    reasons: list[str] = []
+    if has_overdue:                      # R03 overdue advance outstanding
+        reasons.append("R03")
+    if headroom <= 0 or owner_headroom <= 0:  # R04 exposure cap reached
+        reasons.append("R04")
+    if a_final < min_adv:                # R02 amount below minimum after caps
+        reasons.append("R02")
+        if binding == "affordability":   # R05 affordability leaves < minimum
+            reasons.append("R05")
+        elif binding in ("exposure", "owner_exposure"):
+            reasons.append("R04")
+
+    reason_codes = sorted(set(reasons))
+    if reason_codes:
+        return {"status": "not_eligible", "reason_codes": reason_codes,
                 "binding_constraint": binding, "amount_minor": 0,
                 "advance_rate_bps": advance_rate_bps}
 
