@@ -1,0 +1,11 @@
+# Runtime dependencies for the Q-Cash decision-engine API (Docker / FastAPI).
+# Served model is the ratio-anchored XGBoost; scikit-learn is required to
+# unpickle the reference linear estimator stored in the artifact bundle.
+fastapi
+uvicorn[standard]
+joblib==1.6.0
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+xgboost==3.4.1
+pyyaml==6.0.4

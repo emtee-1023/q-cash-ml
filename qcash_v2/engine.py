@@ -196,13 +196,21 @@ def compute_feature_row(
     }
 
 
+def model_path():
+    """Path to the trained artifact, overridable via QCASH_MODEL_PATH (e.g. in Docker)."""
+    import os
+    env = os.getenv("QCASH_MODEL_PATH")
+    from pathlib import Path as _Path
+    return _Path(env) if env else (OUTPUTS_DIR / "model.joblib")
+
+
 def predict(
     point_features: dict[str, float],
     sector: str,
     as_of: pd.Timestamp | None = None,
 ) -> tuple[float, float, dict]:
     """Return (point_minor, lower_minor, bundle) using the trained artifact."""
-    bundle = joblib.load(OUTPUTS_DIR / "model.joblib")
+    bundle = joblib.load(model_path())
     mtype = bundle.get("model_type")
     if mtype == "moving_average_90d":
         col = bundle["required_feature"]

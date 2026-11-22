@@ -49,6 +49,10 @@ qcash_v2/
   engine.py           THE decision engine: transaction intelligence + reliability + decision + terms
   simulate.py         decision-engine repayment simulation
   make_samples.py     sample request/response JSON for the engine
+  api.py              FastAPI wrapper around engine.run_assessment
+  Dockerfile          container image (python:3.14-slim + uvicorn)
+  docker-compose.yml  single-service compose
+  requirements-serve.txt  runtime deps for the API
   report.py           generates reports/ and plots/
   run_all.py          orchestrator
   tests/test_pipeline.py
@@ -99,6 +103,59 @@ history evidence and the per-tier worked example.
   it handles absurd low-value inputs without blowing up.
 
 Regenerate with `../.venv/bin/python make_samples.py`.
+
+## Serving (FastAPI + Docker)
+
+`api.py` is a thin HTTP wrapper around `engine.run_assessment` (integer minor
+units end to end). Endpoints:
+
+| method | path | purpose |
+|---|---|---|
+| `POST` | `/assess` | full assessment: intelligence → prediction → reliability → decision → terms |
+| `GET`  | `/health` | liveness + whether the model artifact is present |
+| `GET`  | `/model`  | model metadata (type, version, cv_error, rationale) |
+
+Request body for `/assess` (`samples/*_request.json`):
+
+```json
+{
+  "business_id": "SYN_001",
+  "sector": "barbershop",
+  "transactions": [
+    {"ref": "T1", "occurred_at": "2025-11-30T10:00:00", "amount_minor": 30000, "type": "credit"}
+  ],
+  "repayment": null, "exposure": null, "business_profile": null
+}
+```
+
+Run locally:
+
+```bash
+cd qcash_v2
+../.venv/bin/pip install -r requirements-serve.txt
+../.venv/bin/uvicorn api:app --host 0.0.0.0 --port 8000
+# curl -s localhost:8000/health
+```
+
+Docker (build after the model exists — `outputs/model.joblib` is produced by
+`train.py` / `run_all.py` and is gitignored):
+
+```bash
+cd qcash_v2
+docker build -t qcash-engine:2.0.0 .
+docker run -d --name qcash-engine -p 3004:8000 qcash-engine:2.0.0
+# or: docker compose up -d      (compose maps host 3004 -> container 8000)
+# health check: curl -s localhost:3004/health
+```
+
+The container listens on 8000 internally; the VPS exposes it on **host port 3004**.
+
+Notes for the VPS:
+- Set `QCASH_MODEL_PATH` to point at the artifact if you mount it separately
+  (defaults to `/app/outputs/model.joblib` in the image).
+- Optional shared secret: set `QCASH_API_KEY`; clients must then send `X-API-Key`.
+- The model artifact is **gitignored** — build the image on a machine/CI where
+  `run_all.py` has been run, or bake training into CI.
 
 ## Key reports
 

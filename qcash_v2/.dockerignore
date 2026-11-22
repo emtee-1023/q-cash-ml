@@ -1,0 +1,21 @@
+# Keep the Docker build context small — exclude generated/training-only artefacts.
+data/
+plots/
+reports/
+samples/
+tests/
+__pycache__/
+*.pyc
+*.pyo
+
+# Training / reporting scripts are not needed to serve.
+generator.py
+features.py
+splits.py
+train.py
+simulate.py
+report.py
+make_samples.py
+run_all.py
+experiment_*.py
+README.md
