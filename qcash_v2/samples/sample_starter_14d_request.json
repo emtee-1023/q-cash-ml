@@ -1,0 +1,1270 @@
+{
+  "business_id": "SYN_STARTER_14D",
+  "sector": "barbershop",
+  "assessment_as_of": "2025-12-01T00:00:00",
+  "currency": "KES",
+  "amount_units": "minor (1 KSh = 100)",
+  "note": "Only 14 days of history -> graduated cold-start (small starter advance).",
+  "transactions": [
+    {
+      "ref": "STARTER-00000",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00001",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00002",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00003",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00004",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00005",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00006",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00007",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00008",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00009",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00010",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00011",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00012",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00013",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00014",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00015",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00016",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00017",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00018",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00019",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00020",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00021",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00022",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00023",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00024",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00025",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00026",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00027",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00028",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00029",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00030",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00031",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00032",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00033",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00034",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00035",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00036",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00037",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00038",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00039",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00040",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00041",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00042",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00043",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00044",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00045",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00046",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00047",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00048",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00049",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00050",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00051",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00052",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00053",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00054",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00055",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00056",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00057",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00058",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00059",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00060",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00061",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00062",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00063",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00064",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00065",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00066",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00067",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00068",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00069",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00070",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00071",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00072",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00073",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00074",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00075",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00076",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00077",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00078",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00079",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00080",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00081",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00082",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00083",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00084",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00085",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00086",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00087",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00088",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00089",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00090",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00091",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00092",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00093",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00094",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00095",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00096",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00097",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00098",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00099",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00100",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00101",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00102",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00103",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00104",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00105",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00106",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00107",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00108",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00109",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00110",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00111",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00112",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00113",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00114",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00115",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00116",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00117",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00118",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00119",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00120",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00121",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00122",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00123",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00124",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00125",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00126",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00127",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00128",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00129",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00130",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00131",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00132",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00133",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00134",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00135",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00136",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00137",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00138",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "STARTER-00139",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    }
+  ]
+}

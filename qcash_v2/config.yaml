@@ -1,0 +1,126 @@
+# Q-Cash v2 — data-generation and training configuration.
+#
+# Everything that drives the rebuilt pipeline lives here so that a run is
+# reproducible from a single file. All money is in integer MINOR UNITS
+# (1 KSh = 100 minor units); all rates are basis points (1% = 100 bps).
+
+# --- generator --------------------------------------------------------------
+generator:
+  master_seed: 20261122
+  start_date: "2024-01-01"
+  end_date: "2025-12-31"          # 24 months
+  n_businesses_per_sector: 16     # 8 sectors -> 128 businesses
+  min_amount_minor: 100           # 1 KSh = 100 minor units (lowest allowed tx)
+  round_to_minor: 100             # round amounts to the nearest shilling
+  digital_share_min: 0.55
+  digital_share_max: 0.95
+
+  # demand / shock process (unobserved -> irreducible error)
+  shock_rho: 0.6
+  shock_sigma: 0.30
+
+  # end-of-month payday cycle. Tested but disabled: a 30-day target window
+  # averages the within-month cycle out, so a payday feature adds no signal.
+  payday_boost: 0.0
+  # temporary closure spells. Tested but disabled: they add unpredictable error
+  # that rev_sum_7/30 already capture, without improving the model.
+  closure_start_prob: 0.0
+  closure_min_days: 2
+  closure_max_days: 6
+
+  # disruptive / non-revenue events (rates are probabilities per occurrence)
+  refund_rate: 0.008              # matching debit+credit pairs
+  reversal_rate: 0.004
+  own_transfer_rate: 0.010
+  capital_injection_rate: 0.004   # per active day
+  capital_mult_min: 5
+  capital_mult_max: 50
+  duplicate_rate: 0.007           # duplicate callback (same ref, delivered twice)
+  outage_rate: 0.008              # whole-day paybill outage (zero receipts)
+
+# --- feature / observation grid ---------------------------------------------
+features:
+  observation_step_days: 7        # weekly cut-offs
+  warmup_days: 90                 # minimum history before first cut-off
+  horizon_days: 30                # target window
+  windows: [7, 30, 90]
+
+# --- splits -----------------------------------------------------------------
+splits:
+  test_business_frac: 0.30        # share of businesses held out entirely
+  temporal_test_months: 3         # latest months of in-sample businesses
+  val_months: 3                   # validation months before temporal test
+  embargo_days: 35                # gap to avoid 30-day target overlap
+  walk_forward_folds: 5
+  n_seeds: 5
+
+# --- model ------------------------------------------------------------------
+model:
+  random_forest:
+    n_estimators: 400
+    max_depth: 10
+    min_samples_leaf: 20
+    max_features: 0.5
+  # small, pre-declared tuning grid
+  grid:
+    n_estimators: [200, 400]
+    max_depth: [6, 10]
+    min_samples_leaf: [20, 50]
+  xgboost:
+    n_estimators: 400
+    max_depth: 4
+    learning_rate: 0.05
+    min_child_weight: 20
+    subsample: 0.8
+    colsample_bytree: 0.7
+    reg_lambda: 1.0
+  xgb_grid:
+    n_estimators: [200, 400]
+    max_depth: [3, 5]
+    min_child_weight: [10, 50]
+
+# --- decision engine / simulation -------------------------------------------
+engine:
+  reliability_weights_bps:
+    consistency: 2500
+    volatility: 2000
+    activity: 2000
+    trend: 1000
+    concentration: 1500
+    repayment: 1000
+  band_cutoffs: {A: 75, B: 60, C: 45}
+  advance_rate_bps: {A: 3000, B: 2200, C: 1500, D: 1000}
+  margin_factor_bps:
+    barbershop: 6000
+    salon: 6000
+    food_vendor: 4500
+    general_retail: 3500
+    greengrocer: 4000
+    hardware: 3000
+    pharmacy: 2500
+    secondhand_clothing: 4000
+  affordability_share_bps: 4000
+  fee_rate_bps: 300
+  term_days: 30
+  max_repayment_days: 60
+  recovery_rate_bps: {A: 1500, B: 2000, C: 2500, D: 3000}
+  daily_cap_bps: 3000
+  max_advance_minor: 2500000      # KSh 25,000
+  min_advance_minor: 25000        # KSh 250 (accommodates informal traders from ~KSh 190/day)
+  error_margin_k: 1.0
+
+  # --- graduated cold-start (KopoKopo-style short warm-up) -----------------
+  # Absolute floor to be assessed at all; below this -> insufficient_data (R01).
+  min_history_days: 14
+  min_txn_window: 10              # eligible tx over the observed window
+  # The full 90-day-anchored model is only used at >=90 days and >=20 tx/30d.
+  full_model_min_days: 90
+  full_model_min_txn_30: 20
+  # Tiers by observed calendar days. Short history -> shorter forecast window,
+  # a heavier uncertainty haircut (margin) and a smaller advance rate + cap.
+  # "full" uses the ratio-XGB model and the reliability-band advance rate.
+  history_tiers:
+    starter:  {min_days: 14, advance_rate_bps: 800,  max_advance_minor: 200000,  margin: 0.45}
+    limited:  {min_days: 30, advance_rate_bps: 1200, max_advance_minor: 500000,  margin: 0.35}
+    standard: {min_days: 60, advance_rate_bps: 1800, max_advance_minor: 1000000, margin: 0.25}
+    full:     {min_days: 90, advance_rate_bps: null, max_advance_minor: 2500000, margin: null}

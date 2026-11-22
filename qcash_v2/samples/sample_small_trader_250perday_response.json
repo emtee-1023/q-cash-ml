@@ -1,0 +1,76 @@
+{
+  "status": "eligible",
+  "model_version": "run_rate_30d[starter]",
+  "history_tier": "starter",
+  "observed_days": 14,
+  "intelligence": {
+    "counts": {
+      "revenue_eligible": 140
+    },
+    "value_minor": {
+      "eligible": 350000
+    },
+    "anomalies_flagged": 0
+  },
+  "prediction": {
+    "horizon_days": 30,
+    "point_minor": 750000,
+    "lower_bound_minor": 412500,
+    "method": "run_rate_30d"
+  },
+  "reliability": {
+    "score": 94.44,
+    "band": "A",
+    "components": {
+      "consistency": {
+        "score": 100.0,
+        "weight_bps": 2500,
+        "used": true
+      },
+      "volatility": {
+        "score": 100.0,
+        "weight_bps": 2000,
+        "used": true
+      },
+      "activity": {
+        "score": 100.0,
+        "weight_bps": 2000,
+        "used": true
+      },
+      "trend": {
+        "score": 50.0,
+        "weight_bps": 1000,
+        "used": true
+      },
+      "concentration": {
+        "score": 100.0,
+        "weight_bps": 1500,
+        "used": true
+      },
+      "repayment": {
+        "score": null,
+        "weight_bps": 1000,
+        "used": false
+      }
+    },
+    "weights_renormalised": false
+  },
+  "recommendation": {
+    "status": "eligible",
+    "amount_minor": 30000,
+    "advance_rate_bps": 800,
+    "binding_constraint": "rate",
+    "reason_codes": [],
+    "fee_minor": 900,
+    "total_repayable_minor": 30900,
+    "affordability_capacity_minor": 165000
+  },
+  "terms": {
+    "term_days": 30,
+    "max_repayment_days": 60,
+    "recovery_rate_bps": 1500,
+    "daily_cap_bps": 3000,
+    "fallback": "extend_once_then_partner_review"
+  },
+  "reason_codes": []
+}

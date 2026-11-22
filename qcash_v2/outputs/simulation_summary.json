@@ -1,0 +1,27 @@
+{
+  "n_assessed": 1652,
+  "n_eligible": 1651,
+  "n_ineligible": 1,
+  "outcome_distribution": {
+    "settled": 1215,
+    "extended": 423,
+    "fallback": 13
+  },
+  "median_days_to_settle": 25.0,
+  "p10_days": 15.0,
+  "p90_days": 37.0,
+  "binding_constraint": {
+    "affordability": 1258,
+    "policy_max": 364,
+    "rate": 29
+  },
+  "total_advanced_minor": 2590380000,
+  "total_shortfall_minor": 3495055,
+  "loss_rate_pct": 0.13492441263443972,
+  "stress_outcome_distribution": {
+    "extended": 906,
+    "settled": 602,
+    "fallback": 143
+  },
+  "stress_loss_rate_pct": 1.5030203612964685
+}

@@ -1,0 +1,12 @@
+# Generated artefacts — regenerate with run_all.py
+__pycache__/
+*.py[cod]
+
+# Synthetic data (139 MB) — regenerate with generator.py + features.py
+data/*.csv
+
+# Trained model artefact — regenerate with train.py
+outputs/*.joblib
+
+# Figures — regenerate with report.py
+plots/*.png
