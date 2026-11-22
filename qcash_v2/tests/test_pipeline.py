@@ -133,6 +133,40 @@ def test_one_shilling_robustness() -> None:
               f"point={pred['point_minor']} minor units")
 
 
+def test_eligibility_reason_codes() -> None:
+    print("Eligibility reason codes (R03 / R04 / R05)")
+
+    def series(days: int, per_day: int, ticket: int) -> pd.DataFrame:
+        dates = pd.date_range("2025-06-01", periods=days, freq="D")
+        rows = []
+        for d in dates:
+            for _ in range(per_day):
+                rows.append({
+                    "ref": f"S{len(rows)}", "business_id": "SYN_RC", "customer_id": None,
+                    "occurred_at": d.strftime("%Y-%m-%dT%H:%M:%S"), "amount_minor": ticket,
+                    "type": "credit", "channel": "paybill",
+                    "is_reversal_of": None, "reference": None, "payer_hash": None,
+                })
+        return pd.DataFrame(rows)
+
+    big = series(90, 10, 30000)
+    base = run_assessment(big, "barbershop")
+    check("baseline eligible with no reason codes",
+          base["status"] == "eligible" and base["reason_codes"] == [])
+
+    r03 = run_assessment(big, "barbershop", exposure={"overdue_minor": 100000})
+    check("overdue advance -> not_eligible R03",
+          r03["status"] == "not_eligible" and "R03" in r03["reason_codes"])
+
+    r04 = run_assessment(big, "barbershop",
+                         exposure={"outstanding_minor": 3000000, "max_exposure_minor": 2500000})
+    check("exposure cap reached -> R04", "R04" in r04["reason_codes"])
+
+    low = series(90, 10, 600)  # ~60/day, pharmacy margin -> affordability binds below min
+    r05 = run_assessment(low, "pharmacy")
+    check("affordability below minimum -> R05", "R05" in r05["reason_codes"])
+
+
 def main() -> int:
     print("=" * 70)
     print("Q-Cash v2 pipeline tests")
@@ -142,6 +176,7 @@ def main() -> int:
     test_classification_recovers_ground_truth()
     test_future_row_leakage()
     test_one_shilling_robustness()
+    test_eligibility_reason_codes()
     print()
     if FAILURES:
         print(f"{len(FAILURES)} CHECK(S) FAILED:")

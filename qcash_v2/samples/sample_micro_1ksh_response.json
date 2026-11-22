@@ -59,7 +59,8 @@
   "recommendation": {
     "status": "not_eligible",
     "reason_codes": [
-      "R02"
+      "R02",
+      "R05"
     ],
     "binding_constraint": "affordability",
     "amount_minor": 0,
@@ -73,6 +74,7 @@
     "fallback": "extend_once_then_partner_review"
   },
   "reason_codes": [
-    "R02"
+    "R02",
+    "R05"
   ]
 }

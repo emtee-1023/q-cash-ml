@@ -169,6 +169,7 @@ Notes for the VPS:
 * `reports/SPLITS.md` — partition manifest + leakage tests
 * `reports/DGP.md` — data-generating process and assumptions
 * `reports/FEATURES.md` — feature definitions
+* `API.md` — backend API reference: endpoints, request/response fields, statuses and reason codes (R01–R05)
 
 ## Dependencies
 
