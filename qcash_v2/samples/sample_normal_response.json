@@ -1,0 +1,81 @@
+{
+  "status": "eligible",
+  "model_version": "xgb-ratio-ma90-2026.11.0",
+  "history_tier": "full",
+  "observed_days": 95,
+  "intelligence": {
+    "counts": {
+      "revenue_eligible": 657,
+      "non_revenue_own_transfer": 9,
+      "non_revenue_refund": 7,
+      "ambiguous": 3,
+      "non_revenue_reversal": 2,
+      "duplicate": 2
+    },
+    "value_minor": {
+      "eligible": 20695100
+    },
+    "anomalies_flagged": 3
+  },
+  "prediction": {
+    "horizon_days": 30,
+    "point_minor": 6683598,
+    "lower_bound_minor": 5655837,
+    "method": "xgboost_ratio_ma90"
+  },
+  "reliability": {
+    "score": 81.12,
+    "band": "A",
+    "components": {
+      "consistency": {
+        "score": 96.66666666666667,
+        "weight_bps": 2500,
+        "used": true
+      },
+      "volatility": {
+        "score": 44.08253664167,
+        "weight_bps": 2000,
+        "used": true
+      },
+      "activity": {
+        "score": 96.66666666666667,
+        "weight_bps": 2000,
+        "used": true
+      },
+      "trend": {
+        "score": 56.985718263913746,
+        "weight_bps": 1000,
+        "used": true
+      },
+      "concentration": {
+        "score": 99.93136122951586,
+        "weight_bps": 1500,
+        "used": true
+      },
+      "repayment": {
+        "score": null,
+        "weight_bps": 1000,
+        "used": false
+      }
+    },
+    "weights_renormalised": false
+  },
+  "recommendation": {
+    "status": "eligible",
+    "amount_minor": 1315000,
+    "advance_rate_bps": 3000,
+    "binding_constraint": "affordability",
+    "reason_codes": [],
+    "fee_minor": 39450,
+    "total_repayable_minor": 1354450,
+    "affordability_capacity_minor": 3393502
+  },
+  "terms": {
+    "term_days": 30,
+    "max_repayment_days": 60,
+    "recovery_rate_bps": 1500,
+    "daily_cap_bps": 3000,
+    "fallback": "extend_once_then_partner_review"
+  },
+  "reason_codes": []
+}

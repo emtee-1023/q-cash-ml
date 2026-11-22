@@ -1,0 +1,78 @@
+{
+  "status": "not_eligible",
+  "model_version": "xgb-ratio-ma90-2026.11.0",
+  "history_tier": "full",
+  "observed_days": 90,
+  "intelligence": {
+    "counts": {
+      "revenue_eligible": 146,
+      "ambiguous": 75
+    },
+    "value_minor": {
+      "eligible": 31300
+    },
+    "anomalies_flagged": 75
+  },
+  "prediction": {
+    "horizon_days": 30,
+    "point_minor": 11118,
+    "lower_bound_minor": 9408,
+    "method": "xgboost_ratio_ma90"
+  },
+  "reliability": {
+    "score": 65.93,
+    "band": "B",
+    "components": {
+      "consistency": {
+        "score": 80.0,
+        "weight_bps": 2500,
+        "used": true
+      },
+      "volatility": {
+        "score": 0.6239040966442122,
+        "weight_bps": 2000,
+        "used": true
+      },
+      "activity": {
+        "score": 80.0,
+        "weight_bps": 2000,
+        "used": true
+      },
+      "trend": {
+        "score": 84.375,
+        "weight_bps": 1000,
+        "used": true
+      },
+      "concentration": {
+        "score": 98.46858899547408,
+        "weight_bps": 1500,
+        "used": true
+      },
+      "repayment": {
+        "score": null,
+        "weight_bps": 1000,
+        "used": false
+      }
+    },
+    "weights_renormalised": false
+  },
+  "recommendation": {
+    "status": "not_eligible",
+    "reason_codes": [
+      "R02"
+    ],
+    "binding_constraint": "affordability",
+    "amount_minor": 0,
+    "advance_rate_bps": 2200
+  },
+  "terms": {
+    "term_days": 30,
+    "max_repayment_days": 60,
+    "recovery_rate_bps": 2000,
+    "daily_cap_bps": 3000,
+    "fallback": "extend_once_then_partner_review"
+  },
+  "reason_codes": [
+    "R02"
+  ]
+}

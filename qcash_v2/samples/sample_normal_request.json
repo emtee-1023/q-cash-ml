@@ -1,0 +1,6129 @@
+{
+  "business_id": "SYN_001",
+  "sector": "barbershop",
+  "assessment_as_of": "2025-11-30T00:00:00",
+  "currency": "KES",
+  "amount_units": "minor (1 KSh = 100)",
+  "transactions": [
+    {
+      "ref": "SYN_001-00004055",
+      "occurred_at": "2025-08-27T00:00:00",
+      "amount_minor": 24000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004062",
+      "occurred_at": "2025-08-27T00:00:00",
+      "amount_minor": 14900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004061",
+      "occurred_at": "2025-08-27T00:00:00",
+      "amount_minor": 54400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004060",
+      "occurred_at": "2025-08-27T00:00:00",
+      "amount_minor": 30300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004063",
+      "occurred_at": "2025-08-27T00:00:00",
+      "amount_minor": 25100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004058",
+      "occurred_at": "2025-08-27T00:00:00",
+      "amount_minor": 24500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004057",
+      "occurred_at": "2025-08-27T00:00:00",
+      "amount_minor": 38600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004056",
+      "occurred_at": "2025-08-27T00:00:00",
+      "amount_minor": 19900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004059",
+      "occurred_at": "2025-08-27T00:00:00",
+      "amount_minor": 31000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004064",
+      "occurred_at": "2025-08-28T00:00:00",
+      "amount_minor": 36800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004065",
+      "occurred_at": "2025-08-28T00:00:00",
+      "amount_minor": 28000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004066",
+      "occurred_at": "2025-08-28T00:00:00",
+      "amount_minor": 60900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004067",
+      "occurred_at": "2025-08-28T00:00:00",
+      "amount_minor": 39400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004068",
+      "occurred_at": "2025-08-28T00:00:00",
+      "amount_minor": 41200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004074",
+      "occurred_at": "2025-08-29T00:00:00",
+      "amount_minor": 47900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004077",
+      "occurred_at": "2025-08-29T00:00:00",
+      "amount_minor": 25100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004076",
+      "occurred_at": "2025-08-29T00:00:00",
+      "amount_minor": 44600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004073",
+      "occurred_at": "2025-08-29T00:00:00",
+      "amount_minor": 23200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004075",
+      "occurred_at": "2025-08-29T00:00:00",
+      "amount_minor": 45000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004071",
+      "occurred_at": "2025-08-29T00:00:00",
+      "amount_minor": 26600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004072",
+      "occurred_at": "2025-08-29T00:00:00",
+      "amount_minor": 31200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004070",
+      "occurred_at": "2025-08-29T00:00:00",
+      "amount_minor": 22200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004069",
+      "occurred_at": "2025-08-29T00:00:00",
+      "amount_minor": 33600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004084",
+      "occurred_at": "2025-08-30T00:00:00",
+      "amount_minor": 43000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004083",
+      "occurred_at": "2025-08-30T00:00:00",
+      "amount_minor": 25600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004082",
+      "occurred_at": "2025-08-30T00:00:00",
+      "amount_minor": 53300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004085",
+      "occurred_at": "2025-08-30T00:00:00",
+      "amount_minor": 54800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004080",
+      "occurred_at": "2025-08-30T00:00:00",
+      "amount_minor": 25100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004079",
+      "occurred_at": "2025-08-30T00:00:00",
+      "amount_minor": 40200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004078",
+      "occurred_at": "2025-08-30T00:00:00",
+      "amount_minor": 25200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004081",
+      "occurred_at": "2025-08-30T00:00:00",
+      "amount_minor": 39400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004086",
+      "occurred_at": "2025-08-31T00:00:00",
+      "amount_minor": 13500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004087",
+      "occurred_at": "2025-08-31T00:00:00",
+      "amount_minor": 22600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004088",
+      "occurred_at": "2025-08-31T00:00:00",
+      "amount_minor": 26900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004089",
+      "occurred_at": "2025-09-01T00:00:00",
+      "amount_minor": 16800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004090",
+      "occurred_at": "2025-09-01T00:00:00",
+      "amount_minor": 20200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004091",
+      "occurred_at": "2025-09-01T00:00:00",
+      "amount_minor": 27300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004092",
+      "occurred_at": "2025-09-01T00:00:00",
+      "amount_minor": 32000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004093",
+      "occurred_at": "2025-09-01T00:00:00",
+      "amount_minor": 38400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004098",
+      "occurred_at": "2025-09-02T00:00:00",
+      "amount_minor": 46200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004099",
+      "occurred_at": "2025-09-02T00:00:00",
+      "amount_minor": 22900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": "own_transfer",
+      "payer_hash": "own-SYN_001"
+    },
+    {
+      "ref": "SYN_001-00004097",
+      "occurred_at": "2025-09-02T00:00:00",
+      "amount_minor": 40300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004095",
+      "occurred_at": "2025-09-02T00:00:00",
+      "amount_minor": 43300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004096",
+      "occurred_at": "2025-09-02T00:00:00",
+      "amount_minor": 25900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004094",
+      "occurred_at": "2025-09-02T00:00:00",
+      "amount_minor": 30800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004100",
+      "occurred_at": "2025-09-03T00:00:00",
+      "amount_minor": 41100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004101",
+      "occurred_at": "2025-09-03T00:00:00",
+      "amount_minor": 28500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004102",
+      "occurred_at": "2025-09-03T00:00:00",
+      "amount_minor": 26100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004103",
+      "occurred_at": "2025-09-03T00:00:00",
+      "amount_minor": 35900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004104",
+      "occurred_at": "2025-09-03T00:00:00",
+      "amount_minor": 23900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004105",
+      "occurred_at": "2025-09-03T00:00:00",
+      "amount_minor": 18800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004107",
+      "occurred_at": "2025-09-04T00:00:00",
+      "amount_minor": 37000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004106",
+      "occurred_at": "2025-09-04T00:00:00",
+      "amount_minor": 13100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "INJ-000005404",
+      "occurred_at": "2025-09-05T00:00:00",
+      "amount_minor": -17100,
+      "type": "debit",
+      "is_reversal_of": "SYN_001-00004112",
+      "reference": "reversal",
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004108",
+      "occurred_at": "2025-09-05T00:00:00",
+      "amount_minor": 23500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004109",
+      "occurred_at": "2025-09-05T00:00:00",
+      "amount_minor": 41500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004110",
+      "occurred_at": "2025-09-05T00:00:00",
+      "amount_minor": 32700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004111",
+      "occurred_at": "2025-09-05T00:00:00",
+      "amount_minor": 25700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004112",
+      "occurred_at": "2025-09-05T00:00:00",
+      "amount_minor": 17100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004116",
+      "occurred_at": "2025-09-06T00:00:00",
+      "amount_minor": 29600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004118",
+      "occurred_at": "2025-09-06T00:00:00",
+      "amount_minor": 28000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004117",
+      "occurred_at": "2025-09-06T00:00:00",
+      "amount_minor": 25400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004115",
+      "occurred_at": "2025-09-06T00:00:00",
+      "amount_minor": 32600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004113",
+      "occurred_at": "2025-09-06T00:00:00",
+      "amount_minor": 49200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "INJ-000015334",
+      "occurred_at": "2025-09-06T00:00:00",
+      "amount_minor": -29600,
+      "type": "debit",
+      "is_reversal_of": null,
+      "reference": "refund",
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004114",
+      "occurred_at": "2025-09-06T00:00:00",
+      "amount_minor": 22300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004119",
+      "occurred_at": "2025-09-07T00:00:00",
+      "amount_minor": 44100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004120",
+      "occurred_at": "2025-09-07T00:00:00",
+      "amount_minor": 23700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004121",
+      "occurred_at": "2025-09-07T00:00:00",
+      "amount_minor": 23900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004122",
+      "occurred_at": "2025-09-07T00:00:00",
+      "amount_minor": 23200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004123",
+      "occurred_at": "2025-09-07T00:00:00",
+      "amount_minor": 43300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004130",
+      "occurred_at": "2025-09-08T00:00:00",
+      "amount_minor": 17100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004124",
+      "occurred_at": "2025-09-08T00:00:00",
+      "amount_minor": 33300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004125",
+      "occurred_at": "2025-09-08T00:00:00",
+      "amount_minor": 34100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004126",
+      "occurred_at": "2025-09-08T00:00:00",
+      "amount_minor": 33900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004127",
+      "occurred_at": "2025-09-08T00:00:00",
+      "amount_minor": 26100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004128",
+      "occurred_at": "2025-09-08T00:00:00",
+      "amount_minor": 14000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004129",
+      "occurred_at": "2025-09-08T00:00:00",
+      "amount_minor": 31500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004131",
+      "occurred_at": "2025-09-09T00:00:00",
+      "amount_minor": 17600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004136",
+      "occurred_at": "2025-09-10T00:00:00",
+      "amount_minor": 14200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004137",
+      "occurred_at": "2025-09-10T00:00:00",
+      "amount_minor": 23600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004135",
+      "occurred_at": "2025-09-10T00:00:00",
+      "amount_minor": 23700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004138",
+      "occurred_at": "2025-09-10T00:00:00",
+      "amount_minor": 17100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004133",
+      "occurred_at": "2025-09-10T00:00:00",
+      "amount_minor": 29600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004132",
+      "occurred_at": "2025-09-10T00:00:00",
+      "amount_minor": 31700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004134",
+      "occurred_at": "2025-09-10T00:00:00",
+      "amount_minor": 32400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004143",
+      "occurred_at": "2025-09-11T00:00:00",
+      "amount_minor": 33100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004142",
+      "occurred_at": "2025-09-11T00:00:00",
+      "amount_minor": 38500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004144",
+      "occurred_at": "2025-09-11T00:00:00",
+      "amount_minor": 27600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004140",
+      "occurred_at": "2025-09-11T00:00:00",
+      "amount_minor": 29400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004139",
+      "occurred_at": "2025-09-11T00:00:00",
+      "amount_minor": 41300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004141",
+      "occurred_at": "2025-09-11T00:00:00",
+      "amount_minor": 44900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004145",
+      "occurred_at": "2025-09-12T00:00:00",
+      "amount_minor": 20400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004146",
+      "occurred_at": "2025-09-12T00:00:00",
+      "amount_minor": 52400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004147",
+      "occurred_at": "2025-09-12T00:00:00",
+      "amount_minor": 32700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004148",
+      "occurred_at": "2025-09-12T00:00:00",
+      "amount_minor": 33900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004149",
+      "occurred_at": "2025-09-12T00:00:00",
+      "amount_minor": 34100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004155",
+      "occurred_at": "2025-09-13T00:00:00",
+      "amount_minor": 25800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004156",
+      "occurred_at": "2025-09-13T00:00:00",
+      "amount_minor": 39100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004153",
+      "occurred_at": "2025-09-13T00:00:00",
+      "amount_minor": 20300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004154",
+      "occurred_at": "2025-09-13T00:00:00",
+      "amount_minor": 31700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004151",
+      "occurred_at": "2025-09-13T00:00:00",
+      "amount_minor": 24300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004150",
+      "occurred_at": "2025-09-13T00:00:00",
+      "amount_minor": 28400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004152",
+      "occurred_at": "2025-09-13T00:00:00",
+      "amount_minor": 24200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004163",
+      "occurred_at": "2025-09-14T00:00:00",
+      "amount_minor": 30600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004161",
+      "occurred_at": "2025-09-14T00:00:00",
+      "amount_minor": 32600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004160",
+      "occurred_at": "2025-09-14T00:00:00",
+      "amount_minor": 20000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004162",
+      "occurred_at": "2025-09-14T00:00:00",
+      "amount_minor": 32900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004158",
+      "occurred_at": "2025-09-14T00:00:00",
+      "amount_minor": 11300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004157",
+      "occurred_at": "2025-09-14T00:00:00",
+      "amount_minor": 15400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004159",
+      "occurred_at": "2025-09-14T00:00:00",
+      "amount_minor": 35500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004169",
+      "occurred_at": "2025-09-15T00:00:00",
+      "amount_minor": 25200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004164",
+      "occurred_at": "2025-09-15T00:00:00",
+      "amount_minor": 40800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004165",
+      "occurred_at": "2025-09-15T00:00:00",
+      "amount_minor": 46700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004166",
+      "occurred_at": "2025-09-15T00:00:00",
+      "amount_minor": 29700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004167",
+      "occurred_at": "2025-09-15T00:00:00",
+      "amount_minor": 30200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004168",
+      "occurred_at": "2025-09-15T00:00:00",
+      "amount_minor": 32400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004176",
+      "occurred_at": "2025-09-16T00:00:00",
+      "amount_minor": 23900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004175",
+      "occurred_at": "2025-09-16T00:00:00",
+      "amount_minor": 23900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004177",
+      "occurred_at": "2025-09-16T00:00:00",
+      "amount_minor": 41100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004174",
+      "occurred_at": "2025-09-16T00:00:00",
+      "amount_minor": 29000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004178",
+      "occurred_at": "2025-09-16T00:00:00",
+      "amount_minor": 21200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004172",
+      "occurred_at": "2025-09-16T00:00:00",
+      "amount_minor": 30300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004171",
+      "occurred_at": "2025-09-16T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004170",
+      "occurred_at": "2025-09-16T00:00:00",
+      "amount_minor": 22800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "INJ-000006951",
+      "occurred_at": "2025-09-16T00:00:00",
+      "amount_minor": -22800,
+      "type": "debit",
+      "is_reversal_of": null,
+      "reference": "refund",
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004173",
+      "occurred_at": "2025-09-16T00:00:00",
+      "amount_minor": 40200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": "own_transfer",
+      "payer_hash": "own-SYN_001"
+    },
+    {
+      "ref": "SYN_001-00004179",
+      "occurred_at": "2025-09-17T00:00:00",
+      "amount_minor": 29800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004180",
+      "occurred_at": "2025-09-17T00:00:00",
+      "amount_minor": 18400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004181",
+      "occurred_at": "2025-09-17T00:00:00",
+      "amount_minor": 44600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004182",
+      "occurred_at": "2025-09-17T00:00:00",
+      "amount_minor": 50400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004183",
+      "occurred_at": "2025-09-17T00:00:00",
+      "amount_minor": 31000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004184",
+      "occurred_at": "2025-09-17T00:00:00",
+      "amount_minor": 41700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004193",
+      "occurred_at": "2025-09-18T00:00:00",
+      "amount_minor": 40300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004192",
+      "occurred_at": "2025-09-18T00:00:00",
+      "amount_minor": 28500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004191",
+      "occurred_at": "2025-09-18T00:00:00",
+      "amount_minor": 27100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004190",
+      "occurred_at": "2025-09-18T00:00:00",
+      "amount_minor": 24900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004185",
+      "occurred_at": "2025-09-18T00:00:00",
+      "amount_minor": 16400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004188",
+      "occurred_at": "2025-09-18T00:00:00",
+      "amount_minor": 25900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004187",
+      "occurred_at": "2025-09-18T00:00:00",
+      "amount_minor": 39000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004186",
+      "occurred_at": "2025-09-18T00:00:00",
+      "amount_minor": 38800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004189",
+      "occurred_at": "2025-09-18T00:00:00",
+      "amount_minor": 26100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004200",
+      "occurred_at": "2025-09-19T00:00:00",
+      "amount_minor": 21700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004199",
+      "occurred_at": "2025-09-19T00:00:00",
+      "amount_minor": 39400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004197",
+      "occurred_at": "2025-09-19T00:00:00",
+      "amount_minor": 26700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004198",
+      "occurred_at": "2025-09-19T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004195",
+      "occurred_at": "2025-09-19T00:00:00",
+      "amount_minor": 46800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004194",
+      "occurred_at": "2025-09-19T00:00:00",
+      "amount_minor": 58300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004196",
+      "occurred_at": "2025-09-19T00:00:00",
+      "amount_minor": 23100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004216",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 54800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004215",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 19700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004214",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 28800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004214",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 28800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004213",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 39100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004212",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 22700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004211",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 32100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004209",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 24200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004210",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 25000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004207",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 46100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004206",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 15800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004205",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 39200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004204",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 20200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004203",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 48200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004202",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 21700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004201",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 28300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": "own_transfer",
+      "payer_hash": "own-SYN_001"
+    },
+    {
+      "ref": "SYN_001-00004208",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 24600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004224",
+      "occurred_at": "2025-09-21T00:00:00",
+      "amount_minor": 46400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004227",
+      "occurred_at": "2025-09-21T00:00:00",
+      "amount_minor": 30500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004226",
+      "occurred_at": "2025-09-21T00:00:00",
+      "amount_minor": 25400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004225",
+      "occurred_at": "2025-09-21T00:00:00",
+      "amount_minor": 17200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004223",
+      "occurred_at": "2025-09-21T00:00:00",
+      "amount_minor": 15200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004220",
+      "occurred_at": "2025-09-21T00:00:00",
+      "amount_minor": 29200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004221",
+      "occurred_at": "2025-09-21T00:00:00",
+      "amount_minor": 23400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004222",
+      "occurred_at": "2025-09-21T00:00:00",
+      "amount_minor": 23200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004219",
+      "occurred_at": "2025-09-21T00:00:00",
+      "amount_minor": 18300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004218",
+      "occurred_at": "2025-09-21T00:00:00",
+      "amount_minor": 41600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004217",
+      "occurred_at": "2025-09-21T00:00:00",
+      "amount_minor": 19800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004237",
+      "occurred_at": "2025-09-22T00:00:00",
+      "amount_minor": 37000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004236",
+      "occurred_at": "2025-09-22T00:00:00",
+      "amount_minor": 46000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004235",
+      "occurred_at": "2025-09-22T00:00:00",
+      "amount_minor": 39500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004234",
+      "occurred_at": "2025-09-22T00:00:00",
+      "amount_minor": 19000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004233",
+      "occurred_at": "2025-09-22T00:00:00",
+      "amount_minor": 28100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004238",
+      "occurred_at": "2025-09-22T00:00:00",
+      "amount_minor": 35400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004231",
+      "occurred_at": "2025-09-22T00:00:00",
+      "amount_minor": 19500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004230",
+      "occurred_at": "2025-09-22T00:00:00",
+      "amount_minor": 38100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004229",
+      "occurred_at": "2025-09-22T00:00:00",
+      "amount_minor": 19400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004228",
+      "occurred_at": "2025-09-22T00:00:00",
+      "amount_minor": 37000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004232",
+      "occurred_at": "2025-09-22T00:00:00",
+      "amount_minor": 19900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004247",
+      "occurred_at": "2025-09-23T00:00:00",
+      "amount_minor": 17200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004246",
+      "occurred_at": "2025-09-23T00:00:00",
+      "amount_minor": 32900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004245",
+      "occurred_at": "2025-09-23T00:00:00",
+      "amount_minor": 52400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004244",
+      "occurred_at": "2025-09-23T00:00:00",
+      "amount_minor": 19800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004243",
+      "occurred_at": "2025-09-23T00:00:00",
+      "amount_minor": 38000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004241",
+      "occurred_at": "2025-09-23T00:00:00",
+      "amount_minor": 46100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004240",
+      "occurred_at": "2025-09-23T00:00:00",
+      "amount_minor": 34900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004239",
+      "occurred_at": "2025-09-23T00:00:00",
+      "amount_minor": 37100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "INJ-000008624",
+      "occurred_at": "2025-09-23T00:00:00",
+      "amount_minor": -17200,
+      "type": "debit",
+      "is_reversal_of": null,
+      "reference": "refund",
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004242",
+      "occurred_at": "2025-09-23T00:00:00",
+      "amount_minor": 27900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004255",
+      "occurred_at": "2025-09-25T00:00:00",
+      "amount_minor": 35300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004260",
+      "occurred_at": "2025-09-25T00:00:00",
+      "amount_minor": 35800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004258",
+      "occurred_at": "2025-09-25T00:00:00",
+      "amount_minor": 46000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004257",
+      "occurred_at": "2025-09-25T00:00:00",
+      "amount_minor": 67400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004256",
+      "occurred_at": "2025-09-25T00:00:00",
+      "amount_minor": 21200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004254",
+      "occurred_at": "2025-09-25T00:00:00",
+      "amount_minor": 35900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004259",
+      "occurred_at": "2025-09-25T00:00:00",
+      "amount_minor": 42300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004252",
+      "occurred_at": "2025-09-25T00:00:00",
+      "amount_minor": 39200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004251",
+      "occurred_at": "2025-09-25T00:00:00",
+      "amount_minor": 14700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004250",
+      "occurred_at": "2025-09-25T00:00:00",
+      "amount_minor": 24400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004249",
+      "occurred_at": "2025-09-25T00:00:00",
+      "amount_minor": 28400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004248",
+      "occurred_at": "2025-09-25T00:00:00",
+      "amount_minor": 47800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004253",
+      "occurred_at": "2025-09-25T00:00:00",
+      "amount_minor": 16900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004279",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 43700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004278",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 26300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004277",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 33300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004275",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 38800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004274",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 42300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004273",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 25700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004272",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 23300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004271",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 21500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004270",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 34700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": "own_transfer",
+      "payer_hash": "own-SYN_001"
+    },
+    {
+      "ref": "SYN_001-00004276",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 21500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004268",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 57400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004267",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 25200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004266",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 19900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004265",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 29500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004264",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 26300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004263",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 21100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004262",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 30600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004261",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 63600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004269",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 44300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004289",
+      "occurred_at": "2025-09-27T00:00:00",
+      "amount_minor": 35400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004288",
+      "occurred_at": "2025-09-27T00:00:00",
+      "amount_minor": 34400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004287",
+      "occurred_at": "2025-09-27T00:00:00",
+      "amount_minor": 33300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": "own_transfer",
+      "payer_hash": "own-SYN_001"
+    },
+    {
+      "ref": "SYN_001-00004286",
+      "occurred_at": "2025-09-27T00:00:00",
+      "amount_minor": 32700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004285",
+      "occurred_at": "2025-09-27T00:00:00",
+      "amount_minor": 50300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": "own_transfer",
+      "payer_hash": "own-SYN_001"
+    },
+    {
+      "ref": "SYN_001-00004284",
+      "occurred_at": "2025-09-27T00:00:00",
+      "amount_minor": 26900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004282",
+      "occurred_at": "2025-09-27T00:00:00",
+      "amount_minor": 19000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004281",
+      "occurred_at": "2025-09-27T00:00:00",
+      "amount_minor": 28000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004280",
+      "occurred_at": "2025-09-27T00:00:00",
+      "amount_minor": 38800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004283",
+      "occurred_at": "2025-09-27T00:00:00",
+      "amount_minor": 31700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004298",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 30100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004304",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 30900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004305",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 22400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004302",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 18800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004301",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 18900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004300",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 30700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004299",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 34700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004297",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 26600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004303",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 52000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004295",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 56900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "INJ-000002131",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": -18800,
+      "type": "debit",
+      "is_reversal_of": "SYN_001-00004302",
+      "reference": "reversal",
+      "payer_hash": null
+    },
+    {
+      "ref": "INJ-000014456",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": -18900,
+      "type": "debit",
+      "is_reversal_of": null,
+      "reference": "refund",
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004290",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 41200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004296",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 27700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004292",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 32000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004293",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 31200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004294",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 57100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004291",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 31400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004306",
+      "occurred_at": "2025-09-29T00:00:00",
+      "amount_minor": 32800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004307",
+      "occurred_at": "2025-09-29T00:00:00",
+      "amount_minor": 19200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004308",
+      "occurred_at": "2025-09-29T00:00:00",
+      "amount_minor": 40800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004309",
+      "occurred_at": "2025-09-29T00:00:00",
+      "amount_minor": 29100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004310",
+      "occurred_at": "2025-09-29T00:00:00",
+      "amount_minor": 26500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004311",
+      "occurred_at": "2025-09-29T00:00:00",
+      "amount_minor": 33500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004312",
+      "occurred_at": "2025-09-29T00:00:00",
+      "amount_minor": 17200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004320",
+      "occurred_at": "2025-09-30T00:00:00",
+      "amount_minor": 37500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004318",
+      "occurred_at": "2025-09-30T00:00:00",
+      "amount_minor": 25100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004317",
+      "occurred_at": "2025-09-30T00:00:00",
+      "amount_minor": 21400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004319",
+      "occurred_at": "2025-09-30T00:00:00",
+      "amount_minor": 39000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004315",
+      "occurred_at": "2025-09-30T00:00:00",
+      "amount_minor": 28100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004314",
+      "occurred_at": "2025-09-30T00:00:00",
+      "amount_minor": 33600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004316",
+      "occurred_at": "2025-09-30T00:00:00",
+      "amount_minor": 51100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004313",
+      "occurred_at": "2025-09-30T00:00:00",
+      "amount_minor": 50800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004328",
+      "occurred_at": "2025-10-01T00:00:00",
+      "amount_minor": 33600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004327",
+      "occurred_at": "2025-10-01T00:00:00",
+      "amount_minor": 22400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004326",
+      "occurred_at": "2025-10-01T00:00:00",
+      "amount_minor": 16500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004325",
+      "occurred_at": "2025-10-01T00:00:00",
+      "amount_minor": 36900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004329",
+      "occurred_at": "2025-10-01T00:00:00",
+      "amount_minor": 25600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004323",
+      "occurred_at": "2025-10-01T00:00:00",
+      "amount_minor": 24900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004322",
+      "occurred_at": "2025-10-01T00:00:00",
+      "amount_minor": 43900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004324",
+      "occurred_at": "2025-10-01T00:00:00",
+      "amount_minor": 55900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004321",
+      "occurred_at": "2025-10-01T00:00:00",
+      "amount_minor": 21800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004330",
+      "occurred_at": "2025-10-02T00:00:00",
+      "amount_minor": 23100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004331",
+      "occurred_at": "2025-10-02T00:00:00",
+      "amount_minor": 17400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004332",
+      "occurred_at": "2025-10-02T00:00:00",
+      "amount_minor": 35500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004333",
+      "occurred_at": "2025-10-02T00:00:00",
+      "amount_minor": 49500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004334",
+      "occurred_at": "2025-10-02T00:00:00",
+      "amount_minor": 32000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004335",
+      "occurred_at": "2025-10-02T00:00:00",
+      "amount_minor": 24100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004336",
+      "occurred_at": "2025-10-02T00:00:00",
+      "amount_minor": 16500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004337",
+      "occurred_at": "2025-10-02T00:00:00",
+      "amount_minor": 23300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004338",
+      "occurred_at": "2025-10-02T00:00:00",
+      "amount_minor": 37900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004345",
+      "occurred_at": "2025-10-03T00:00:00",
+      "amount_minor": 13600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004343",
+      "occurred_at": "2025-10-03T00:00:00",
+      "amount_minor": 30500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004344",
+      "occurred_at": "2025-10-03T00:00:00",
+      "amount_minor": 21100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004341",
+      "occurred_at": "2025-10-03T00:00:00",
+      "amount_minor": 25000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004340",
+      "occurred_at": "2025-10-03T00:00:00",
+      "amount_minor": 44400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004339",
+      "occurred_at": "2025-10-03T00:00:00",
+      "amount_minor": 32400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004342",
+      "occurred_at": "2025-10-03T00:00:00",
+      "amount_minor": 18800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004369",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 26400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004368",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 29900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004367",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 41100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004366",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 33100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004365",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 23600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004363",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 30900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004362",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 23000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004361",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 46100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004360",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 32400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004359",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 28700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004358",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 64700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004364",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 39800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004356",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 29600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004355",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 19500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004354",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 36300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004353",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 22200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004352",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 47800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004351",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 28500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004350",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 32500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004349",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 30400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004348",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 24600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004347",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 37000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004346",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 31200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004357",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 29600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004378",
+      "occurred_at": "2025-10-05T00:00:00",
+      "amount_minor": 17800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004377",
+      "occurred_at": "2025-10-05T00:00:00",
+      "amount_minor": 27800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004376",
+      "occurred_at": "2025-10-05T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004375",
+      "occurred_at": "2025-10-05T00:00:00",
+      "amount_minor": 44000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004372",
+      "occurred_at": "2025-10-05T00:00:00",
+      "amount_minor": 26300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004373",
+      "occurred_at": "2025-10-05T00:00:00",
+      "amount_minor": 19900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004371",
+      "occurred_at": "2025-10-05T00:00:00",
+      "amount_minor": 62600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004370",
+      "occurred_at": "2025-10-05T00:00:00",
+      "amount_minor": 43800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004374",
+      "occurred_at": "2025-10-05T00:00:00",
+      "amount_minor": 34400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004379",
+      "occurred_at": "2025-10-06T00:00:00",
+      "amount_minor": 46100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004380",
+      "occurred_at": "2025-10-06T00:00:00",
+      "amount_minor": 25500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004381",
+      "occurred_at": "2025-10-06T00:00:00",
+      "amount_minor": 16200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004382",
+      "occurred_at": "2025-10-06T00:00:00",
+      "amount_minor": 28700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004388",
+      "occurred_at": "2025-10-07T00:00:00",
+      "amount_minor": 33400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004390",
+      "occurred_at": "2025-10-07T00:00:00",
+      "amount_minor": 27200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004389",
+      "occurred_at": "2025-10-07T00:00:00",
+      "amount_minor": 38800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004387",
+      "occurred_at": "2025-10-07T00:00:00",
+      "amount_minor": 45800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004386",
+      "occurred_at": "2025-10-07T00:00:00",
+      "amount_minor": 51500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004385",
+      "occurred_at": "2025-10-07T00:00:00",
+      "amount_minor": 21100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004384",
+      "occurred_at": "2025-10-07T00:00:00",
+      "amount_minor": 25400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004383",
+      "occurred_at": "2025-10-07T00:00:00",
+      "amount_minor": 22600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "INJ-000008764",
+      "occurred_at": "2025-10-07T00:00:00",
+      "amount_minor": -38800,
+      "type": "debit",
+      "is_reversal_of": null,
+      "reference": "refund",
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004391",
+      "occurred_at": "2025-10-08T00:00:00",
+      "amount_minor": 29500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004392",
+      "occurred_at": "2025-10-09T00:00:00",
+      "amount_minor": 33700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004393",
+      "occurred_at": "2025-10-09T00:00:00",
+      "amount_minor": 44700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004394",
+      "occurred_at": "2025-10-09T00:00:00",
+      "amount_minor": 23500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004399",
+      "occurred_at": "2025-10-10T00:00:00",
+      "amount_minor": 26600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004398",
+      "occurred_at": "2025-10-10T00:00:00",
+      "amount_minor": 44800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004397",
+      "occurred_at": "2025-10-10T00:00:00",
+      "amount_minor": 22900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004396",
+      "occurred_at": "2025-10-10T00:00:00",
+      "amount_minor": 20500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004395",
+      "occurred_at": "2025-10-10T00:00:00",
+      "amount_minor": 43000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004400",
+      "occurred_at": "2025-10-11T00:00:00",
+      "amount_minor": 25300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004401",
+      "occurred_at": "2025-10-11T00:00:00",
+      "amount_minor": 37100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004402",
+      "occurred_at": "2025-10-11T00:00:00",
+      "amount_minor": 29100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004412",
+      "occurred_at": "2025-10-12T00:00:00",
+      "amount_minor": 27700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004411",
+      "occurred_at": "2025-10-12T00:00:00",
+      "amount_minor": 30800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004410",
+      "occurred_at": "2025-10-12T00:00:00",
+      "amount_minor": 31300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004409",
+      "occurred_at": "2025-10-12T00:00:00",
+      "amount_minor": 27300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004408",
+      "occurred_at": "2025-10-12T00:00:00",
+      "amount_minor": 22200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004406",
+      "occurred_at": "2025-10-12T00:00:00",
+      "amount_minor": 36000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004405",
+      "occurred_at": "2025-10-12T00:00:00",
+      "amount_minor": 37700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004404",
+      "occurred_at": "2025-10-12T00:00:00",
+      "amount_minor": 20700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004403",
+      "occurred_at": "2025-10-12T00:00:00",
+      "amount_minor": 31500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004407",
+      "occurred_at": "2025-10-12T00:00:00",
+      "amount_minor": 28100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004413",
+      "occurred_at": "2025-10-13T00:00:00",
+      "amount_minor": 33400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004414",
+      "occurred_at": "2025-10-13T00:00:00",
+      "amount_minor": 33300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004415",
+      "occurred_at": "2025-10-13T00:00:00",
+      "amount_minor": 30100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004416",
+      "occurred_at": "2025-10-13T00:00:00",
+      "amount_minor": 32100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004417",
+      "occurred_at": "2025-10-14T00:00:00",
+      "amount_minor": 42100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004418",
+      "occurred_at": "2025-10-14T00:00:00",
+      "amount_minor": 27000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004419",
+      "occurred_at": "2025-10-14T00:00:00",
+      "amount_minor": 28400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004420",
+      "occurred_at": "2025-10-14T00:00:00",
+      "amount_minor": 29400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004421",
+      "occurred_at": "2025-10-14T00:00:00",
+      "amount_minor": 32500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004429",
+      "occurred_at": "2025-10-15T00:00:00",
+      "amount_minor": 21300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004428",
+      "occurred_at": "2025-10-15T00:00:00",
+      "amount_minor": 38400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004430",
+      "occurred_at": "2025-10-15T00:00:00",
+      "amount_minor": 57400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004427",
+      "occurred_at": "2025-10-15T00:00:00",
+      "amount_minor": 32600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004426",
+      "occurred_at": "2025-10-15T00:00:00",
+      "amount_minor": 34500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004424",
+      "occurred_at": "2025-10-15T00:00:00",
+      "amount_minor": 22100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004424",
+      "occurred_at": "2025-10-15T00:00:00",
+      "amount_minor": 22100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004423",
+      "occurred_at": "2025-10-15T00:00:00",
+      "amount_minor": 44000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004422",
+      "occurred_at": "2025-10-15T00:00:00",
+      "amount_minor": 22000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004425",
+      "occurred_at": "2025-10-15T00:00:00",
+      "amount_minor": 30200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004434",
+      "occurred_at": "2025-10-16T00:00:00",
+      "amount_minor": 14700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": "own_transfer",
+      "payer_hash": "own-SYN_001"
+    },
+    {
+      "ref": "SYN_001-00004431",
+      "occurred_at": "2025-10-16T00:00:00",
+      "amount_minor": 42200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004432",
+      "occurred_at": "2025-10-16T00:00:00",
+      "amount_minor": 27000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004433",
+      "occurred_at": "2025-10-16T00:00:00",
+      "amount_minor": 24800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004435",
+      "occurred_at": "2025-10-17T00:00:00",
+      "amount_minor": 24900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004436",
+      "occurred_at": "2025-10-18T00:00:00",
+      "amount_minor": 25500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004437",
+      "occurred_at": "2025-10-18T00:00:00",
+      "amount_minor": 33800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004438",
+      "occurred_at": "2025-10-18T00:00:00",
+      "amount_minor": 32900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004439",
+      "occurred_at": "2025-10-18T00:00:00",
+      "amount_minor": 38500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004440",
+      "occurred_at": "2025-10-18T00:00:00",
+      "amount_minor": 30800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004446",
+      "occurred_at": "2025-10-19T00:00:00",
+      "amount_minor": 28900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004447",
+      "occurred_at": "2025-10-19T00:00:00",
+      "amount_minor": 34000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004444",
+      "occurred_at": "2025-10-19T00:00:00",
+      "amount_minor": 40500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004445",
+      "occurred_at": "2025-10-19T00:00:00",
+      "amount_minor": 41900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004442",
+      "occurred_at": "2025-10-19T00:00:00",
+      "amount_minor": 21400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004441",
+      "occurred_at": "2025-10-19T00:00:00",
+      "amount_minor": 41500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004443",
+      "occurred_at": "2025-10-19T00:00:00",
+      "amount_minor": 32800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004454",
+      "occurred_at": "2025-10-20T00:00:00",
+      "amount_minor": 33100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004448",
+      "occurred_at": "2025-10-20T00:00:00",
+      "amount_minor": 24500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004449",
+      "occurred_at": "2025-10-20T00:00:00",
+      "amount_minor": 19700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004450",
+      "occurred_at": "2025-10-20T00:00:00",
+      "amount_minor": 21200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004451",
+      "occurred_at": "2025-10-20T00:00:00",
+      "amount_minor": 31900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004452",
+      "occurred_at": "2025-10-20T00:00:00",
+      "amount_minor": 43500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004453",
+      "occurred_at": "2025-10-20T00:00:00",
+      "amount_minor": 44300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004455",
+      "occurred_at": "2025-10-20T00:00:00",
+      "amount_minor": 28700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004462",
+      "occurred_at": "2025-10-21T00:00:00",
+      "amount_minor": 43900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004461",
+      "occurred_at": "2025-10-21T00:00:00",
+      "amount_minor": 42900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004460",
+      "occurred_at": "2025-10-21T00:00:00",
+      "amount_minor": 30400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004463",
+      "occurred_at": "2025-10-21T00:00:00",
+      "amount_minor": 28800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004458",
+      "occurred_at": "2025-10-21T00:00:00",
+      "amount_minor": 45100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004457",
+      "occurred_at": "2025-10-21T00:00:00",
+      "amount_minor": 32100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004456",
+      "occurred_at": "2025-10-21T00:00:00",
+      "amount_minor": 38600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004459",
+      "occurred_at": "2025-10-21T00:00:00",
+      "amount_minor": 42700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004472",
+      "occurred_at": "2025-10-23T00:00:00",
+      "amount_minor": 51700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004470",
+      "occurred_at": "2025-10-23T00:00:00",
+      "amount_minor": 40700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004473",
+      "occurred_at": "2025-10-23T00:00:00",
+      "amount_minor": 26400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004469",
+      "occurred_at": "2025-10-23T00:00:00",
+      "amount_minor": 20600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004471",
+      "occurred_at": "2025-10-23T00:00:00",
+      "amount_minor": 22300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004467",
+      "occurred_at": "2025-10-23T00:00:00",
+      "amount_minor": 27400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004466",
+      "occurred_at": "2025-10-23T00:00:00",
+      "amount_minor": 23800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004468",
+      "occurred_at": "2025-10-23T00:00:00",
+      "amount_minor": 33300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004465",
+      "occurred_at": "2025-10-23T00:00:00",
+      "amount_minor": 27500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004464",
+      "occurred_at": "2025-10-23T00:00:00",
+      "amount_minor": 39000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004487",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 23800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004486",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 20700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004485",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 35300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004484",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 25200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004483",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 25900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004482",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 28700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004481",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 19300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004480",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 35500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004479",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 31900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004478",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 27400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004477",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 36900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004476",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 50800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004475",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 40600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": "own_transfer",
+      "payer_hash": "own-SYN_001"
+    },
+    {
+      "ref": "SYN_001-00004474",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 20700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004497",
+      "occurred_at": "2025-10-25T00:00:00",
+      "amount_minor": 45400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004496",
+      "occurred_at": "2025-10-25T00:00:00",
+      "amount_minor": 45200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004495",
+      "occurred_at": "2025-10-25T00:00:00",
+      "amount_minor": 38600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004494",
+      "occurred_at": "2025-10-25T00:00:00",
+      "amount_minor": 19300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004493",
+      "occurred_at": "2025-10-25T00:00:00",
+      "amount_minor": 28900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004492",
+      "occurred_at": "2025-10-25T00:00:00",
+      "amount_minor": 35700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004491",
+      "occurred_at": "2025-10-25T00:00:00",
+      "amount_minor": 61900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004490",
+      "occurred_at": "2025-10-25T00:00:00",
+      "amount_minor": 39900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004489",
+      "occurred_at": "2025-10-25T00:00:00",
+      "amount_minor": 38600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004488",
+      "occurred_at": "2025-10-25T00:00:00",
+      "amount_minor": 20600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004498",
+      "occurred_at": "2025-10-26T00:00:00",
+      "amount_minor": 23500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004499",
+      "occurred_at": "2025-10-26T00:00:00",
+      "amount_minor": 32300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004500",
+      "occurred_at": "2025-10-26T00:00:00",
+      "amount_minor": 29600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004501",
+      "occurred_at": "2025-10-26T00:00:00",
+      "amount_minor": 33000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004502",
+      "occurred_at": "2025-10-26T00:00:00",
+      "amount_minor": 26700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004503",
+      "occurred_at": "2025-10-26T00:00:00",
+      "amount_minor": 34900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004510",
+      "occurred_at": "2025-10-27T00:00:00",
+      "amount_minor": 25100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004509",
+      "occurred_at": "2025-10-27T00:00:00",
+      "amount_minor": 30400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004508",
+      "occurred_at": "2025-10-27T00:00:00",
+      "amount_minor": 44800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": "own_transfer",
+      "payer_hash": "own-SYN_001"
+    },
+    {
+      "ref": "SYN_001-00004505",
+      "occurred_at": "2025-10-27T00:00:00",
+      "amount_minor": 35300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004506",
+      "occurred_at": "2025-10-27T00:00:00",
+      "amount_minor": 23600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004504",
+      "occurred_at": "2025-10-27T00:00:00",
+      "amount_minor": 27900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004507",
+      "occurred_at": "2025-10-27T00:00:00",
+      "amount_minor": 22600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004519",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 19100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004522",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 24500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004521",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 43000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004523",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 40800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004520",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 24900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004518",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 25400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004513",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 26100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004516",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 58800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004511",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 17100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004512",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 33000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004517",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 23100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004515",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 19600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004514",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 18800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004524",
+      "occurred_at": "2025-10-29T00:00:00",
+      "amount_minor": 49600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004525",
+      "occurred_at": "2025-10-29T00:00:00",
+      "amount_minor": 37200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004527",
+      "occurred_at": "2025-10-29T00:00:00",
+      "amount_minor": 28100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004528",
+      "occurred_at": "2025-10-29T00:00:00",
+      "amount_minor": 24000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004529",
+      "occurred_at": "2025-10-29T00:00:00",
+      "amount_minor": 21700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004530",
+      "occurred_at": "2025-10-29T00:00:00",
+      "amount_minor": 38200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004531",
+      "occurred_at": "2025-10-29T00:00:00",
+      "amount_minor": 63800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004532",
+      "occurred_at": "2025-10-29T00:00:00",
+      "amount_minor": 49700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004526",
+      "occurred_at": "2025-10-29T00:00:00",
+      "amount_minor": 26300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004540",
+      "occurred_at": "2025-10-30T00:00:00",
+      "amount_minor": 39500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004538",
+      "occurred_at": "2025-10-30T00:00:00",
+      "amount_minor": 28000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004539",
+      "occurred_at": "2025-10-30T00:00:00",
+      "amount_minor": 32600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004537",
+      "occurred_at": "2025-10-30T00:00:00",
+      "amount_minor": 25000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004535",
+      "occurred_at": "2025-10-30T00:00:00",
+      "amount_minor": 40900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004534",
+      "occurred_at": "2025-10-30T00:00:00",
+      "amount_minor": 21600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004533",
+      "occurred_at": "2025-10-30T00:00:00",
+      "amount_minor": 20200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004536",
+      "occurred_at": "2025-10-30T00:00:00",
+      "amount_minor": 14200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004554",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 18200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004553",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 21100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004552",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 14000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004551",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 47500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004550",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 48600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004549",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 33700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004548",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 26800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004547",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 29500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004545",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 52300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004544",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 32100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004543",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 25800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004542",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 42700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004541",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 30000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004546",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 58400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004560",
+      "occurred_at": "2025-11-02T00:00:00",
+      "amount_minor": 32900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004561",
+      "occurred_at": "2025-11-02T00:00:00",
+      "amount_minor": 28400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004559",
+      "occurred_at": "2025-11-02T00:00:00",
+      "amount_minor": 22300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004555",
+      "occurred_at": "2025-11-02T00:00:00",
+      "amount_minor": 19900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004557",
+      "occurred_at": "2025-11-02T00:00:00",
+      "amount_minor": 17000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004558",
+      "occurred_at": "2025-11-02T00:00:00",
+      "amount_minor": 30200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004556",
+      "occurred_at": "2025-11-02T00:00:00",
+      "amount_minor": 33900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004562",
+      "occurred_at": "2025-11-03T00:00:00",
+      "amount_minor": 28800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004563",
+      "occurred_at": "2025-11-03T00:00:00",
+      "amount_minor": 26100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004564",
+      "occurred_at": "2025-11-03T00:00:00",
+      "amount_minor": 58700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004565",
+      "occurred_at": "2025-11-03T00:00:00",
+      "amount_minor": 31800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004566",
+      "occurred_at": "2025-11-03T00:00:00",
+      "amount_minor": 22300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004567",
+      "occurred_at": "2025-11-04T00:00:00",
+      "amount_minor": 26300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004568",
+      "occurred_at": "2025-11-04T00:00:00",
+      "amount_minor": 40500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004569",
+      "occurred_at": "2025-11-04T00:00:00",
+      "amount_minor": 22400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004570",
+      "occurred_at": "2025-11-04T00:00:00",
+      "amount_minor": 38900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004571",
+      "occurred_at": "2025-11-04T00:00:00",
+      "amount_minor": 45100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004572",
+      "occurred_at": "2025-11-04T00:00:00",
+      "amount_minor": 23000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004573",
+      "occurred_at": "2025-11-04T00:00:00",
+      "amount_minor": 38500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004581",
+      "occurred_at": "2025-11-05T00:00:00",
+      "amount_minor": 38500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004579",
+      "occurred_at": "2025-11-05T00:00:00",
+      "amount_minor": 31200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004578",
+      "occurred_at": "2025-11-05T00:00:00",
+      "amount_minor": 49000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004580",
+      "occurred_at": "2025-11-05T00:00:00",
+      "amount_minor": 26000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004576",
+      "occurred_at": "2025-11-05T00:00:00",
+      "amount_minor": 23700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004575",
+      "occurred_at": "2025-11-05T00:00:00",
+      "amount_minor": 34200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004574",
+      "occurred_at": "2025-11-05T00:00:00",
+      "amount_minor": 32700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004577",
+      "occurred_at": "2025-11-05T00:00:00",
+      "amount_minor": 21300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004582",
+      "occurred_at": "2025-11-06T00:00:00",
+      "amount_minor": 53400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004583",
+      "occurred_at": "2025-11-06T00:00:00",
+      "amount_minor": 26300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004584",
+      "occurred_at": "2025-11-06T00:00:00",
+      "amount_minor": 21300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004585",
+      "occurred_at": "2025-11-06T00:00:00",
+      "amount_minor": 59000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004586",
+      "occurred_at": "2025-11-07T00:00:00",
+      "amount_minor": 22100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004587",
+      "occurred_at": "2025-11-07T00:00:00",
+      "amount_minor": 29100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004588",
+      "occurred_at": "2025-11-07T00:00:00",
+      "amount_minor": 44200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004595",
+      "occurred_at": "2025-11-08T00:00:00",
+      "amount_minor": 32100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004594",
+      "occurred_at": "2025-11-08T00:00:00",
+      "amount_minor": 31700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004593",
+      "occurred_at": "2025-11-08T00:00:00",
+      "amount_minor": 23900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004592",
+      "occurred_at": "2025-11-08T00:00:00",
+      "amount_minor": 24500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "INJ-000015183",
+      "occurred_at": "2025-11-08T00:00:00",
+      "amount_minor": -28000,
+      "type": "debit",
+      "is_reversal_of": null,
+      "reference": "refund",
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004590",
+      "occurred_at": "2025-11-08T00:00:00",
+      "amount_minor": 18600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004589",
+      "occurred_at": "2025-11-08T00:00:00",
+      "amount_minor": 30400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004591",
+      "occurred_at": "2025-11-08T00:00:00",
+      "amount_minor": 28000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004600",
+      "occurred_at": "2025-11-09T00:00:00",
+      "amount_minor": 31400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004602",
+      "occurred_at": "2025-11-09T00:00:00",
+      "amount_minor": 31400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004601",
+      "occurred_at": "2025-11-09T00:00:00",
+      "amount_minor": 18700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004599",
+      "occurred_at": "2025-11-09T00:00:00",
+      "amount_minor": 26000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004598",
+      "occurred_at": "2025-11-09T00:00:00",
+      "amount_minor": 45400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004597",
+      "occurred_at": "2025-11-09T00:00:00",
+      "amount_minor": 20500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004596",
+      "occurred_at": "2025-11-09T00:00:00",
+      "amount_minor": 38100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "INJ-000008575",
+      "occurred_at": "2025-11-09T00:00:00",
+      "amount_minor": -18700,
+      "type": "debit",
+      "is_reversal_of": null,
+      "reference": "refund",
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004603",
+      "occurred_at": "2025-11-10T00:00:00",
+      "amount_minor": 37400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004604",
+      "occurred_at": "2025-11-10T00:00:00",
+      "amount_minor": 25000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004605",
+      "occurred_at": "2025-11-10T00:00:00",
+      "amount_minor": 20500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004606",
+      "occurred_at": "2025-11-10T00:00:00",
+      "amount_minor": 32900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004607",
+      "occurred_at": "2025-11-11T00:00:00",
+      "amount_minor": 19100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004608",
+      "occurred_at": "2025-11-11T00:00:00",
+      "amount_minor": 22900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004609",
+      "occurred_at": "2025-11-11T00:00:00",
+      "amount_minor": 29900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004610",
+      "occurred_at": "2025-11-11T00:00:00",
+      "amount_minor": 33200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004611",
+      "occurred_at": "2025-11-11T00:00:00",
+      "amount_minor": 37000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004618",
+      "occurred_at": "2025-11-12T00:00:00",
+      "amount_minor": 36100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004617",
+      "occurred_at": "2025-11-12T00:00:00",
+      "amount_minor": 44500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004616",
+      "occurred_at": "2025-11-12T00:00:00",
+      "amount_minor": 17200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004619",
+      "occurred_at": "2025-11-12T00:00:00",
+      "amount_minor": 34600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004614",
+      "occurred_at": "2025-11-12T00:00:00",
+      "amount_minor": 35100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004613",
+      "occurred_at": "2025-11-12T00:00:00",
+      "amount_minor": 42500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004612",
+      "occurred_at": "2025-11-12T00:00:00",
+      "amount_minor": 32700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004615",
+      "occurred_at": "2025-11-12T00:00:00",
+      "amount_minor": 29100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004620",
+      "occurred_at": "2025-11-13T00:00:00",
+      "amount_minor": 34400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004621",
+      "occurred_at": "2025-11-13T00:00:00",
+      "amount_minor": 32500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004622",
+      "occurred_at": "2025-11-13T00:00:00",
+      "amount_minor": 18200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004623",
+      "occurred_at": "2025-11-13T00:00:00",
+      "amount_minor": 13200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004624",
+      "occurred_at": "2025-11-13T00:00:00",
+      "amount_minor": 22100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004625",
+      "occurred_at": "2025-11-13T00:00:00",
+      "amount_minor": 23300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004627",
+      "occurred_at": "2025-11-14T00:00:00",
+      "amount_minor": 18100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004626",
+      "occurred_at": "2025-11-14T00:00:00",
+      "amount_minor": 34500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004628",
+      "occurred_at": "2025-11-15T00:00:00",
+      "amount_minor": 23800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004629",
+      "occurred_at": "2025-11-15T00:00:00",
+      "amount_minor": 22600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004630",
+      "occurred_at": "2025-11-15T00:00:00",
+      "amount_minor": 23200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004631",
+      "occurred_at": "2025-11-15T00:00:00",
+      "amount_minor": 30200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004632",
+      "occurred_at": "2025-11-15T00:00:00",
+      "amount_minor": 28200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004633",
+      "occurred_at": "2025-11-15T00:00:00",
+      "amount_minor": 44000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004634",
+      "occurred_at": "2025-11-15T00:00:00",
+      "amount_minor": 46600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004635",
+      "occurred_at": "2025-11-15T00:00:00",
+      "amount_minor": 27300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004636",
+      "occurred_at": "2025-11-15T00:00:00",
+      "amount_minor": 16800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004637",
+      "occurred_at": "2025-11-15T00:00:00",
+      "amount_minor": 25300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004641",
+      "occurred_at": "2025-11-16T00:00:00",
+      "amount_minor": 41300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004642",
+      "occurred_at": "2025-11-16T00:00:00",
+      "amount_minor": 31100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004640",
+      "occurred_at": "2025-11-16T00:00:00",
+      "amount_minor": 59000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004638",
+      "occurred_at": "2025-11-16T00:00:00",
+      "amount_minor": 22300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004639",
+      "occurred_at": "2025-11-16T00:00:00",
+      "amount_minor": 17500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004643",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 14500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004644",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 39200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004645",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 30500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004646",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 40400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004647",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 46800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004648",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 20200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004653",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 20400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004652",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 32700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004649",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 36300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004650",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 43900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004651",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 50200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004663",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 27700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004662",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 33600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004661",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 29800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004659",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 35300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004660",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 24200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004657",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 18400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004656",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 47800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004655",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 44900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004654",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 37700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004658",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 44200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004677",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 23900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004676",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 30800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004675",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 59600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004674",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 59400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004673",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 24800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004672",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 27900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004671",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 25400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004669",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 48600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004668",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 21200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004667",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 27300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004666",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 31500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004665",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 24800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004664",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 26700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004670",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 74100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004683",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 18500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004681",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 18200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004682",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 21800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004679",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 50900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004678",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 25700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004680",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 18000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004684",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 23300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004685",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 50200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004686",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 53100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004693",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 48200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004692",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 20300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004691",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 19500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004689",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 14600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004688",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 17900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004687",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 17400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004690",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 23700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004694",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 42600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004700",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 29300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004701",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 37600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004699",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 40200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004702",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 41500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004697",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 22300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004696",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 56800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004695",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 35400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004698",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 18900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004703",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 35400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004704",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 30600,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004705",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 31100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004706",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 39700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004707",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 32400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004713",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 77400,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004712",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 22000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004711",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 33800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004709",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 30700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004708",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 14900,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004710",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 32300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004722",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 26700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004714",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 13800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004715",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 56500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004716",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 24100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004717",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 43200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004718",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 23800,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004719",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 33500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004720",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 20700,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004721",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 29100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SYN_001-00004723",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 27300,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    }
+  ]
+}

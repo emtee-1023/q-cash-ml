@@ -1,6 +1,5 @@
-# Q-Cash ML pipeline dependencies.
-# Versions are pinned to the environment the published results were produced in
-# (see outputs/run_summary.json -> environment). Install with:
+# Q-Cash ML pipeline dependencies (qcash_v2).
+# Install with:
 #   python3 -m venv .venv && source .venv/bin/activate
 #   pip install -r requirements.txt
 joblib==1.6.0
@@ -9,3 +8,5 @@ numpy==2.5.3
 openpyxl==3.1.5
 pandas==3.0.6
 scikit-learn==1.9.1
+xgboost==3.4.1
+pyyaml==6.0.4

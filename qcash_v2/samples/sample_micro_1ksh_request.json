@@ -1,0 +1,1999 @@
+{
+  "business_id": "SYN_MICRO_VENDOR",
+  "sector": "greengrocer",
+  "assessment_as_of": "2025-11-30T00:00:00",
+  "currency": "KES",
+  "amount_units": "minor (1 KSh = 100)",
+  "note": "Micro vendor: mostly 1-shilling items, to test extreme low-value input.",
+  "transactions": [
+    {
+      "ref": "MICRO-00000",
+      "occurred_at": "2025-09-01T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00001",
+      "occurred_at": "2025-09-01T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00002",
+      "occurred_at": "2025-09-01T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00003",
+      "occurred_at": "2025-09-01T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00004",
+      "occurred_at": "2025-09-02T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00005",
+      "occurred_at": "2025-09-02T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00006",
+      "occurred_at": "2025-09-02T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00007",
+      "occurred_at": "2025-09-02T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00008",
+      "occurred_at": "2025-09-03T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00009",
+      "occurred_at": "2025-09-03T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00010",
+      "occurred_at": "2025-09-04T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00011",
+      "occurred_at": "2025-09-05T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00012",
+      "occurred_at": "2025-09-05T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00013",
+      "occurred_at": "2025-09-05T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00014",
+      "occurred_at": "2025-09-05T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00015",
+      "occurred_at": "2025-09-06T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00016",
+      "occurred_at": "2025-09-06T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00017",
+      "occurred_at": "2025-09-06T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00018",
+      "occurred_at": "2025-09-06T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00019",
+      "occurred_at": "2025-09-07T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00020",
+      "occurred_at": "2025-09-07T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00021",
+      "occurred_at": "2025-09-08T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00022",
+      "occurred_at": "2025-09-08T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00023",
+      "occurred_at": "2025-09-09T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00024",
+      "occurred_at": "2025-09-09T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00025",
+      "occurred_at": "2025-09-09T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00026",
+      "occurred_at": "2025-09-10T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00027",
+      "occurred_at": "2025-09-10T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00028",
+      "occurred_at": "2025-09-10T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00029",
+      "occurred_at": "2025-09-10T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00030",
+      "occurred_at": "2025-09-11T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00031",
+      "occurred_at": "2025-09-11T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00032",
+      "occurred_at": "2025-09-12T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00033",
+      "occurred_at": "2025-09-13T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00034",
+      "occurred_at": "2025-09-13T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00035",
+      "occurred_at": "2025-09-13T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00036",
+      "occurred_at": "2025-09-14T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00037",
+      "occurred_at": "2025-09-15T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00038",
+      "occurred_at": "2025-09-15T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00039",
+      "occurred_at": "2025-09-15T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00040",
+      "occurred_at": "2025-09-16T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00041",
+      "occurred_at": "2025-09-16T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00042",
+      "occurred_at": "2025-09-16T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00043",
+      "occurred_at": "2025-09-16T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00044",
+      "occurred_at": "2025-09-17T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00045",
+      "occurred_at": "2025-09-17T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00046",
+      "occurred_at": "2025-09-18T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00047",
+      "occurred_at": "2025-09-19T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00048",
+      "occurred_at": "2025-09-20T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00049",
+      "occurred_at": "2025-09-21T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00050",
+      "occurred_at": "2025-09-21T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00051",
+      "occurred_at": "2025-09-21T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00052",
+      "occurred_at": "2025-09-22T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00053",
+      "occurred_at": "2025-09-22T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00054",
+      "occurred_at": "2025-09-23T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00055",
+      "occurred_at": "2025-09-23T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00056",
+      "occurred_at": "2025-09-23T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00057",
+      "occurred_at": "2025-09-24T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00058",
+      "occurred_at": "2025-09-24T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00059",
+      "occurred_at": "2025-09-24T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00060",
+      "occurred_at": "2025-09-25T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00061",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00062",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00063",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00064",
+      "occurred_at": "2025-09-26T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00065",
+      "occurred_at": "2025-09-27T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00066",
+      "occurred_at": "2025-09-27T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00067",
+      "occurred_at": "2025-09-27T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00068",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00069",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00070",
+      "occurred_at": "2025-09-28T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00071",
+      "occurred_at": "2025-09-29T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00072",
+      "occurred_at": "2025-09-29T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00073",
+      "occurred_at": "2025-09-29T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00074",
+      "occurred_at": "2025-09-29T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00075",
+      "occurred_at": "2025-09-30T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00076",
+      "occurred_at": "2025-10-01T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00077",
+      "occurred_at": "2025-10-01T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00078",
+      "occurred_at": "2025-10-01T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00079",
+      "occurred_at": "2025-10-02T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00080",
+      "occurred_at": "2025-10-03T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00081",
+      "occurred_at": "2025-10-03T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00082",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00083",
+      "occurred_at": "2025-10-04T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00084",
+      "occurred_at": "2025-10-05T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00085",
+      "occurred_at": "2025-10-05T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00086",
+      "occurred_at": "2025-10-06T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00087",
+      "occurred_at": "2025-10-06T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00088",
+      "occurred_at": "2025-10-06T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00089",
+      "occurred_at": "2025-10-07T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00090",
+      "occurred_at": "2025-10-07T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00091",
+      "occurred_at": "2025-10-07T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00092",
+      "occurred_at": "2025-10-08T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00093",
+      "occurred_at": "2025-10-08T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00094",
+      "occurred_at": "2025-10-09T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00095",
+      "occurred_at": "2025-10-10T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00096",
+      "occurred_at": "2025-10-10T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00097",
+      "occurred_at": "2025-10-10T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00098",
+      "occurred_at": "2025-10-10T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00099",
+      "occurred_at": "2025-10-11T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00100",
+      "occurred_at": "2025-10-12T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00101",
+      "occurred_at": "2025-10-12T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00102",
+      "occurred_at": "2025-10-12T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00103",
+      "occurred_at": "2025-10-13T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00104",
+      "occurred_at": "2025-10-13T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00105",
+      "occurred_at": "2025-10-13T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00106",
+      "occurred_at": "2025-10-13T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00107",
+      "occurred_at": "2025-10-14T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00108",
+      "occurred_at": "2025-10-14T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00109",
+      "occurred_at": "2025-10-14T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00110",
+      "occurred_at": "2025-10-14T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00111",
+      "occurred_at": "2025-10-15T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00112",
+      "occurred_at": "2025-10-15T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00113",
+      "occurred_at": "2025-10-15T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00114",
+      "occurred_at": "2025-10-15T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00115",
+      "occurred_at": "2025-10-16T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00116",
+      "occurred_at": "2025-10-16T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00117",
+      "occurred_at": "2025-10-16T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00118",
+      "occurred_at": "2025-10-17T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00119",
+      "occurred_at": "2025-10-18T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00120",
+      "occurred_at": "2025-10-19T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00121",
+      "occurred_at": "2025-10-19T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00122",
+      "occurred_at": "2025-10-20T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00123",
+      "occurred_at": "2025-10-20T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00124",
+      "occurred_at": "2025-10-20T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00125",
+      "occurred_at": "2025-10-21T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00126",
+      "occurred_at": "2025-10-21T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00127",
+      "occurred_at": "2025-10-22T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00128",
+      "occurred_at": "2025-10-23T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00129",
+      "occurred_at": "2025-10-23T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00130",
+      "occurred_at": "2025-10-23T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00131",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00132",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00133",
+      "occurred_at": "2025-10-24T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00134",
+      "occurred_at": "2025-10-25T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00135",
+      "occurred_at": "2025-10-25T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00136",
+      "occurred_at": "2025-10-26T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00137",
+      "occurred_at": "2025-10-26T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00138",
+      "occurred_at": "2025-10-26T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00139",
+      "occurred_at": "2025-10-26T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00140",
+      "occurred_at": "2025-10-27T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00141",
+      "occurred_at": "2025-10-27T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00142",
+      "occurred_at": "2025-10-27T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00143",
+      "occurred_at": "2025-10-27T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00144",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00145",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00146",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00147",
+      "occurred_at": "2025-10-28T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00148",
+      "occurred_at": "2025-10-29T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00149",
+      "occurred_at": "2025-10-30T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00150",
+      "occurred_at": "2025-10-30T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00151",
+      "occurred_at": "2025-10-31T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00152",
+      "occurred_at": "2025-10-31T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00153",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00154",
+      "occurred_at": "2025-11-01T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00155",
+      "occurred_at": "2025-11-02T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00156",
+      "occurred_at": "2025-11-02T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00157",
+      "occurred_at": "2025-11-03T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00158",
+      "occurred_at": "2025-11-03T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00159",
+      "occurred_at": "2025-11-03T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00160",
+      "occurred_at": "2025-11-04T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00161",
+      "occurred_at": "2025-11-04T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00162",
+      "occurred_at": "2025-11-04T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00163",
+      "occurred_at": "2025-11-04T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00164",
+      "occurred_at": "2025-11-05T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00165",
+      "occurred_at": "2025-11-06T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00166",
+      "occurred_at": "2025-11-06T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00167",
+      "occurred_at": "2025-11-06T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00168",
+      "occurred_at": "2025-11-06T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00169",
+      "occurred_at": "2025-11-07T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00170",
+      "occurred_at": "2025-11-07T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00171",
+      "occurred_at": "2025-11-07T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00172",
+      "occurred_at": "2025-11-07T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00173",
+      "occurred_at": "2025-11-08T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00174",
+      "occurred_at": "2025-11-09T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00175",
+      "occurred_at": "2025-11-09T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00176",
+      "occurred_at": "2025-11-09T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00177",
+      "occurred_at": "2025-11-10T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00178",
+      "occurred_at": "2025-11-10T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00179",
+      "occurred_at": "2025-11-10T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00180",
+      "occurred_at": "2025-11-11T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00181",
+      "occurred_at": "2025-11-12T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00182",
+      "occurred_at": "2025-11-13T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00183",
+      "occurred_at": "2025-11-13T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00184",
+      "occurred_at": "2025-11-14T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00185",
+      "occurred_at": "2025-11-14T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00186",
+      "occurred_at": "2025-11-15T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00187",
+      "occurred_at": "2025-11-15T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00188",
+      "occurred_at": "2025-11-15T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00189",
+      "occurred_at": "2025-11-15T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00190",
+      "occurred_at": "2025-11-16T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00191",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00192",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00193",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00194",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00195",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00196",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00197",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00198",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00199",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00200",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00201",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00202",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00203",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00204",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00205",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00206",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00207",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00208",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00209",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00210",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 200,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00211",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00212",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00213",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00214",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 1000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00215",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00216",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00217",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00218",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 100,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00219",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "MICRO-00220",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 2000,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    }
+  ]
+}

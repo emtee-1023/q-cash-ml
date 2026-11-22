@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-11-22T18:03:21.626173+00:00",
+  "generator_version": "v2.0",
+  "master_seed": 20261122,
+  "n_businesses": 128,
+  "n_transactions": 1545074,
+  "n_daily_rows": 90446,
+  "date_range": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "sectors": [
+    "barbershop",
+    "salon",
+    "pharmacy",
+    "general_retail",
+    "greengrocer",
+    "hardware",
+    "food_vendor",
+    "secondhand_clothing"
+  ],
+  "min_amount_minor": 100,
+  "min_amount_ksh": 1.0,
+  "category_counts": {
+    "revenue_eligible": 1482777,
+    "non_revenue_refund": 24254,
+    "non_revenue_own_transfer": 14979,
+    "non_revenue_reversal": 12080,
+    "duplicate": 10611,
+    "non_revenue_capital": 373
+  },
+  "disclaimer": "Synthetic data for pipeline validation. Parameters are assumptions, NOT measured Kenyan MSME statistics."
+}

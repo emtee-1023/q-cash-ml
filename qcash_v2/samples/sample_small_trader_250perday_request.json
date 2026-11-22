@@ -1,0 +1,1270 @@
+{
+  "business_id": "SYN_SMALL_250",
+  "sector": "greengrocer",
+  "assessment_as_of": "2025-12-01T00:00:00",
+  "currency": "KES",
+  "amount_units": "minor (1 KSh = 100)",
+  "note": "Informal trader ~KES 250/day for 14 days -> small starter advance.",
+  "transactions": [
+    {
+      "ref": "SMALL-00000",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00001",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00002",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00003",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00004",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00005",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00006",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00007",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00008",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00009",
+      "occurred_at": "2025-11-17T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00010",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00011",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00012",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00013",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00014",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00015",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00016",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00017",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00018",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00019",
+      "occurred_at": "2025-11-18T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00020",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00021",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00022",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00023",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00024",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00025",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00026",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00027",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00028",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00029",
+      "occurred_at": "2025-11-19T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00030",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00031",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00032",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00033",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00034",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00035",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00036",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00037",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00038",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00039",
+      "occurred_at": "2025-11-20T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00040",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00041",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00042",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00043",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00044",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00045",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00046",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00047",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00048",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00049",
+      "occurred_at": "2025-11-21T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00050",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00051",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00052",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00053",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00054",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00055",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00056",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00057",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00058",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00059",
+      "occurred_at": "2025-11-22T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00060",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00061",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00062",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00063",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00064",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00065",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00066",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00067",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00068",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00069",
+      "occurred_at": "2025-11-23T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00070",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00071",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00072",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00073",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00074",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00075",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00076",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00077",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00078",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00079",
+      "occurred_at": "2025-11-24T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00080",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00081",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00082",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00083",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00084",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00085",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00086",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00087",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00088",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00089",
+      "occurred_at": "2025-11-25T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00090",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00091",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00092",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00093",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00094",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00095",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00096",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00097",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00098",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00099",
+      "occurred_at": "2025-11-26T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00100",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00101",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00102",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00103",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00104",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00105",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00106",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00107",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00108",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00109",
+      "occurred_at": "2025-11-27T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00110",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00111",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00112",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00113",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00114",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00115",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00116",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00117",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00118",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00119",
+      "occurred_at": "2025-11-28T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00120",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00121",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00122",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00123",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00124",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00125",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00126",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00127",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00128",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00129",
+      "occurred_at": "2025-11-29T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00130",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00131",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00132",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00133",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00134",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00135",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00136",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00137",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00138",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    },
+    {
+      "ref": "SMALL-00139",
+      "occurred_at": "2025-11-30T00:00:00",
+      "amount_minor": 2500,
+      "type": "credit",
+      "is_reversal_of": null,
+      "reference": null,
+      "payer_hash": null
+    }
+  ]
+}
