@@ -5,8 +5,9 @@ __pycache__/
 # Synthetic data (139 MB) — regenerate with generator.py + features.py
 data/*.csv
 
-# Trained model artefact — regenerate with train.py
-outputs/*.joblib
+# NOTE: outputs/model.joblib is intentionally NOT ignored. It is the small
+# (~1.2 MB) served artifact baked into the Docker image; keeping it in the repo
+# makes `docker compose up --build` work from a clean clone on the VPS.
 
 # Figures — regenerate with report.py
 plots/*.png

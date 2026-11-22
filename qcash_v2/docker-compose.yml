@@ -1,0 +1,9 @@
+services:
+  qcash-engine:
+    build: .
+    image: qcash-engine:2.0.0
+    ports:
+      - "3004:8000"
+    environment:
+      - QCASH_API_KEY=${QCASH_API_KEY:-}
+    restart: unless-stopped
