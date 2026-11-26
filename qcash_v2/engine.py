@@ -43,6 +43,9 @@ def classify_transactions(tx: pd.DataFrame) -> pd.DataFrame:
     matters (guide section 3.2).
     """
     out = tx.copy()
+    if out.empty:
+        out["predicted_category"] = pd.Series(index=out.index, dtype="object")
+        return out
     refs = out["ref"].astype(str)
     dup = refs.duplicated(keep="first")
 

@@ -167,6 +167,26 @@ def test_eligibility_reason_codes() -> None:
     check("affordability below minimum -> R05", "R05" in r05["reason_codes"])
 
 
+def test_new_business_history() -> None:
+    print("New business with no / little history")
+    cols = ["ref", "business_id", "customer_id", "occurred_at", "amount_minor",
+            "type", "channel", "is_reversal_of", "reference", "payer_hash"]
+    empty = pd.DataFrame(columns=cols)
+    result = run_assessment(empty, "barbershop")
+    check("no transactions -> insufficient_data R01 (no exception)",
+          result["status"] == "insufficient_data" and result["reason_codes"] == ["R01"])
+
+    one_day = pd.DataFrame([{
+        "ref": "NEW-1", "business_id": "SYN_NEW", "customer_id": None,
+        "occurred_at": "2025-11-30T10:00:00", "amount_minor": 30000,
+        "type": "credit", "channel": "paybill", "is_reversal_of": None,
+        "reference": None, "payer_hash": None,
+    }])
+    result = run_assessment(one_day, "barbershop")
+    check("one day of history -> insufficient_data R01",
+          result["status"] == "insufficient_data" and result["reason_codes"] == ["R01"])
+
+
 def main() -> int:
     print("=" * 70)
     print("Q-Cash v2 pipeline tests")
@@ -177,6 +197,7 @@ def main() -> int:
     test_future_row_leakage()
     test_one_shilling_robustness()
     test_eligibility_reason_codes()
+    test_new_business_history()
     print()
     if FAILURES:
         print(f"{len(FAILURES)} CHECK(S) FAILED:")
